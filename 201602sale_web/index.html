@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="title" content="Omusic 5周年 感謝祭買6送3  下殺6.7折"/>
+    <meta name="description" content="2016/2/15至2016/3/10止，買6送3  下殺6.7折"/>
+    <meta name="keywords" content="Omusic,music ,好康,線上音樂,刷卡,遠傳,聽歌,優惠,周年慶,超值優惠"/>
+
+    <!--FB分享內容-->
+    <meta property="og:url" content="http://secure.omusic.com.tw/149/pay/event/201602sale.php"/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Omusic 5周年 感謝祭買6送3  下殺6.7折">
+    <meta property="og:image" content="http://secure.omusic.com.tw/149/pay/images/201602sale/fbthumb.jpg"/>
+    <meta property="og:description" content="2016/2/15至2016/3/10止，買6送3  下殺6.7折">
+    <meta property="og:image:width" content="150"/>
+    <meta property="og:image:height" content="150"/>
+
+<title>Omusic 5周年 感謝祭買6送3  下殺6.7折</title>
+
+<link rel="stylesheet" type="text/css" href="css/201602sale/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/201602sale/hader&amp;footer.css"/>
+<link rel="stylesheet" type="text/css" href="css/201602sale/animation.css" >
+
+<script type="text/javascript" src="js/201602sale/pageshare.js"></script>
+<script type="text/javascript" src="js/201602sale/jquery.min.js"></script>
+<script type="text/javascript" src="js/201602sale/modernizr.custom.53451.js"></script>
+
+<!--Google分析碼-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-55760966-35', 'auto');
+        ga('send', 'pageview');
+    </script>
+    
+ <!--試聽-->
+<script> 
+audioPlayer = null;
+currentPlaying = null;
+ var trialPlay = function(status, songid) {
+    if(audioPlayer === null) { 
+        audioPlayer = document.createElement('audio'); 
+          audioPlayer.addEventListener("ended", function() {
+            if (currentPlaying !== null) {
+                $(currentPlaying).removeClass('stop');
+            }
+        }, false);
+        audioPlayer.addEventListener("error", function() {
+            if (currentPlaying !== null) {
+                $(currentPlaying).removeClass('stop');
+            }
+        }, false);        
+    }  
+    if (status) {
+        audioPlayer.src = 'http://omplay.omusic.com.tw/pc/play/play_demo.php?from=web&songid=' + songid,
+        audioPlayer.play();
+    }
+    else {
+        audioPlayer.pause();
+    }
+}
+
+$(function() {
+               $('.try').click(function() {
+                        var currentSongID = $(this).attr("songID");
+                        if (audioPlayer !== null && !audioPlayer.paused && currentPlaying !== null) {
+                $(currentPlaying).removeClass('stop');
+            }            
+                        if (audioPlayer === null || this !== currentPlaying || audioPlayer.paused) {
+                trialPlay(true, currentSongID);
+                currentPlaying = this;
+                $(this).addClass('stop');
+            }
+            else {
+                 trialPlay(false);
+            }
+               });
+});
+
+    </script> 
+
+
+
+</head>
+
+<body>
+
+<!--錯誤訊息區 -->
+
+<!-- popup VDC兌換失敗頁失敗1(您已經申請成為Omusic音樂無限聽綁約用戶，故不適用此方案，謝謝！若有問題請洽Omusic客服中心(02-23567572))-->
+<div id="fail1" class="popup_content">
+<div class="popup_wording">您已經申請成為Omusic音樂無限聽綁約用戶，<br/>故不適用此方案，謝謝！<br/>若有問題請洽Omusic客服中心(02-23567572)</div>
+<div class="popup_style_btn_content">
+<a href="http://www.omusic.com.tw/products/index.php"  target="_blank" class="popup_style_btn" ></a>
+</div>
+<div id="close_popup_btn">
+<a href = "javascript:void(0)"  class="close_popup_btn" onclick = "document.getElementById('fail1').style.display='none';document.getElementById('fade').style.display='none'"></a>
+</div>
+</div>
+
+<!-- popup 149兌換失敗頁失敗2(您已是 Omusic 每月自動扣款會員身份，不需再重複購買此方案，謝謝！ 若有問題請洽Omusic客服中心(02-23567)-->
+<div id="fail2" class="popup_content">
+<div class="popup_wording">您已是Omusicic每月自動扣款會員身份，<br/>不需再重複購買此方案，謝謝！<br/>若有問題請洽Omusic客服中心(02-23567572)</div>
+<div class="popup_style_btn_content">
+<a href="http://www.omusic.com.tw/products/index.php"  target="_blank" class="popup_style_btn" ></a>
+</div>
+<div id="close_popup_btn">
+<a href = "javascript:void(0)"  class="close_popup_btn" onclick = "document.getElementById('fail2').style.display='none';document.getElementById('fade').style.display='none'"></a>
+</div>
+</div>
+
+
+<!-- popup 未綁訂付款工具兌換失敗頁失敗4(您未設定扣款工具，煩請先完成付款工具設定，謝謝！若有問題請洽Omusic客服中心(02-23567572) )-->
+<div id="fail3" class="popup_content">
+<div class="popup_wording">您未設定扣款工具，煩請先完成付款工具設定，謝謝！<br/>若有問題請洽Omusic客服中心(02-23567572)</div>
+<div class="popup_style_btn_content">
+<a href="http://www.omusic.com.tw/products/index.php"  target="_blank" class="popup_style_btn" ></a>
+</div>
+<div id="close_popup_btn">
+<a href = "javascript:void(0)"  class="close_popup_btn" onclick = "document.getElementById('fail3').style.display='none';document.getElementById('fade').style.display='none'"></a>
+</div>
+</div>
+
+<div id="fade" class="black_overlay"></div>
+<!--錯誤訊息區END (叫出poup錯誤視窗語法:onclick="document.getElementById('fail1').style.display='block';document.getElementById('fade').style.display='block'"-->
+
+
+<!-- popup請詳讀貼心小叮嚀及同意條款說明 -->
+<div id="terms" class="popup2_content">
+<div class="popup_term_title"><img src="images/201602sale/trem_title.png" width="626" height="55" /></div>
+<div class="popup_term_wording">
+1.本人同意扣繳當期(270天為一期) Omusic 服務費用NT$894，並於第271天起每月自動扣款NT$149。服務一經訂購成功後，當期服務費用恕不退款；取消服務仍需支付當期全額之服務費。</br> 
+2. 本優惠方案不得與Omusic月租無限聽優惠活動合併使用。</br> 
+3.透過手機網路連線使用本服務，會有大量資料傳輸(傳輸費另計)，建議搭配優惠上網資費使用本服務。</br> 
+4.本服務實際支援機款，以Omusic網站(www.omusic.com.tw)公告為準。</br> 
+5.消費者於參加本活動時，視為同意接受本活動規範，本公司有權決定取消、終止、修改或暫停本活動。</br> 
+6.除上述注意事項，若有於此網頁上未盡之事宜，本公司擁有保留修改活動內容之權利。
+</div>
+
+<div id="close_popup_btn">
+<a href = "javascript:void(0)"  class="close_popup_btn" onclick = "document.getElementById('terms').style.display='none';document.getElementById('fade').style.display='none'"></a>
+</div>
+</div>
+
+
+<!--Header-->
+<div class="header_container">
+<div class="top_header_container">
+<!--Omusic Logo-->
+<a href="http://www.omusic.com.tw/" class="header_omusic_logo_btn" target="_blank"></a>
+<!--按鈕區-->
+<div class="header_btn_container">
+<!--登入-->
+<a href="login.html" class="header_login_btn"></a>
+<!--註冊-->
+<a href="login.html" class="header_singup_btn"></a>
+<!--登出(登入後在顯示)-->
+<a href="login.html" class="header_singup_btn" style="display:none"></a>
+</div>
+</div>
+<div class="bottom_header_container"></div>
+</div>
+<!--Header END-->
+
+<div class="main_container">
+<div class="main_body_container">
+
+<div id="main_title" class="a-bouncein">
+<div class="info_content"><img src="images/201602sale/info.png" width="489" height="122" border="0" usemap="#Map" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="129,53,225,71" href="#news" />
+  </map>
+</div>
+
+<div id="date"></div>
+
+
+<!--分享區-->
+<div id="share_container">
+<!--FB-->
+<a class="fb_btn" href="javascript:shareFacebook('http://secure.omusic.com.tw/149/pay/event/201602sale.php');" content="Omusic 5周年 感謝祭買6送3  下殺6.7折"></a>
+<!--Google-->
+<a class="google_btn" href="https://plus.google.com/share?url=http://secure.omusic.com.tw/149/pay/event/201602sale.php', 'Omusic 5周年 感謝祭買6送3  下殺6.7折');" target="_blank"></a>
+<!--twitter-->
+<a class="twitter_btn" href="http://twitter.com/share?url=http://secure.omusic.com.tw/149/pay/event/201602sale.php&amp;text=Omusic 5周年 感謝祭買6送3  下殺6.7折" target="_blank" title="分享至 Twitter"><span class="share-button-link-text"></span></a>
+</div>
+
+<!--立即購買按鈕-->
+<div id="apply_btn" >
+<a href="#" class="apply_btn" onclick="document.getElementById('fail1').style.display='block';document.getElementById('fade').style.display='block'"></a>
+</div>
+
+
+<!--請詳細閱讀貼心小叮嚀及同意條款按鈕-->
+<div id="note_btn">
+<a class="note_btn" style="cursor: pointer;" onclick = "document.getElementById('terms').style.display='block';document.getElementById('fade')"></a>
+</div>
+
+
+</div>
+</div>
+
+
+
+<!--footer STAR-->
+<div id="footer">
+<div class="footer_inside">
+<div class="footer_container">
+<a class="footer_link" href="http://www.omusic.com.tw/instru_4_termsofuse.php" target="_blank">服務說明條款</a>｜
+<a class="footer_link" href="http://www.omusic.com.tw/instru_5_FETnetuser.php" target="_blank">FETnet會員須知</a>｜
+<a class="footer_link" href="http://www.omusic.com.tw/instru_1_about.php" target="_blank">關於Omusic</a>｜
+<a class="footer_link" href="http://www.omusic.com.tw/instru_2_privacy.php" target="_blank"> 隱私權政策</a>｜
+<a class="footer_link" href="http://www.omusic.com.tw/instru_3_partner.php" target="_blank">合作夥伴</a>｜
+<a class="footer_link" href="http://www.omusic.com.tw/instru_7_contact.php" target="_blank">聯絡我們</a><br/>
+Omusic版權所有 Copyright. ©2016 Omusic Co., Ltd. All Rights Reserved.
+</div>
+<div class="footer_fb_container">
+<div class="footer_logo"><img src="images/201602sale/footer_logo.png" width="45" height="48" alt=""/></div>
+<div class="footer_fb_info"><a href="https://www.facebook.com/omusictw" target="_blank">Omusic 的 Facebook</a>
+<div class="fb_like">
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fomusictw&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=dark&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--footer END-->
+
+
+
+
+</body>
+</html>
