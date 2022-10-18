@@ -1,0 +1,135 @@
+/* 基本設定_start */
+
+.pageContainer {
+    padding: 0px;
+}
+
+
+/* 基本設定_end */
+
+
+/* 內頁banner_start */
+
+.innerBannerContainer {
+    height: 220px;
+    position: relative;
+}
+
+.innerBannerTitle {
+    display: table;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.innerBannerTitle h1 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+
+/* 內頁banner_end */
+
+/* 內頁_start */
+
+.navigation{
+    padding:30px 0;
+}
+
+.pageContent{
+    padding: 60px 15px;
+}
+
+/* 內頁_end */
+
+/* 麵包屑_start */
+
+.breadcrumbContainer {
+    border: #eee solid 1px;
+    padding: 15px 0px;
+    margin-bottom: 60px;
+}
+
+.breadcrumbContainer ul {
+    text-align: left;
+}
+
+.breadcrumbContainer ul li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.breadcrumbContainer ul li::after {
+    content: "/";
+    margin: 0px 2px 0px 6px;
+    display: inline-block;
+}
+
+.breadcrumbContainer ul li:nth-last-child(1)::after {
+    content: "";
+    margin: 0px;
+}
+
+.breadcrumbContainer ul li a {
+    color: #333;
+    font-size: 15px;
+}
+
+.breadcrumbContainer ul li a:hover {
+    color: #aaa;
+}
+/* 麵包屑_end */
+
+/* 404.php_start */
+.errorContentTitle {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 60px;
+}
+
+.errorNum {
+    font-size: 200px;
+    line-height: 1;
+    margin-bottom: 30px; 
+}
+
+.errorTitle {
+    font-size: 22px;
+}
+
+/* 404.php_end */
+
+
+@media only screen and (max-width: 1499px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) {
+    /* 內頁banner_start */
+    .innerBannerContainer {
+        height: 180px;
+    }
+    /* 內頁banner_end */
+}
+
+@media only screen and (max-width: 568px) {}
+
+@media only screen and (max-width: 440px) {}
+
+@media only screen and (max-width: 420px) {}
