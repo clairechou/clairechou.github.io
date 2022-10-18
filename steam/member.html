@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>線上學習平台</title>
+    <!-- 頁簽顯示LOGO -->
+    <link rel="shortcut icon" href="images/ico-logo.ico">
+    <!-- (Bootstrap) Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- jQuery Core 3.1.0 -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- material-icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- 自定義Css_start-->
+    <!-- 定義全站html標籤、網站字體或是取消套件預設 -->
+    <link rel="stylesheet" href="css/global.css">
+    <!-- 定義全站中常駐項目 -->
+    <link rel="stylesheet" href="css/layout.css">
+    <!-- 首頁專用Css -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- 內頁專用Css -->
+    <link rel="stylesheet" href="css/page.css">
+    <!-- 預留可自定義Css -->
+
+</head>
+
+<body>
+    <div class="container-fluid bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay indexContainer">
+        <!-- 手機選單_start -->
+        <header class="bmd-layout-header mbHeadContainer animate">
+            <div class="bg-faded">
+                <div class="mbHeadContainerInner">
+                    <div class="mbMenuBtn">
+                        <button class="navbar-toggler" type="button" data-toggle="drawer" data-target="#dw-s2">
+                            <span class="mbMenuBar"></span>
+                        </button>
+                    </div>
+                    <div class="logo mbLogo">
+                        <a href="index.html"><img src="images/logo.svg" alt="OMO AI學習平台"></a>
+                    </div>
+                    <!-- 登入/註冊/購物車/搜尋 -->
+                    <div class="topInfo">
+                        <ul>
+                            <li><a href="#" class="icon shopping-cart"><img src="images/icon-shopping-cart.svg"><span
+                                        class="shopping-cart-count">2</span></a>
+                            </li>
+                            <li><a href="#" class="icon" data-toggle="modal" data-target="#pop"><img
+                                        src="images/icon-account.svg"></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="images/icon-language.svg">
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">繁體中文</a>
+                                    <a class="dropdown-item" href="#">简体中文</a>
+                                    <a class="dropdown-item" href="#">English</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="dw-s2" class="bmd-layout-drawer bg-faded mbMenu">
+            <div id="leftMenu">
+                <div class="mbClose">
+                    <button type="button" class="mbCloseBtn"><span class="material-icons">close</span></button>
+                </div>
+                <ul class="nav sb-menu nav-list"></ul>
+            </div>
+        </div>
+        <!-- 手機選單_end -->
+        <main class="bmd-layout-content mainContainer">
+            <!-- 主選單_start -->
+            <header class="nopadding">
+                <div class="menuContainer">
+                    <div class="menuContainerInner">
+                        <nav class="menuBlock">
+                            <!-- logo -->
+                            <div class="logo pcLogo">
+                                <h1>
+                                    <a href="index.html"><img src="images/logo.svg" alt="OMO AI學習平台"></a>
+                                </h1>
+                            </div>
+                            <!-- nav_bar -->
+                            <div class="navBar">
+                                <div class="navInner">
+                                    <ul id="mainMenu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">活動公告</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="#">最新消息</a></li>
+                                                <li><a href="#">部落格</a></li>
+                                                <li><a href="#">其他說明</a></li>
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#">講師介紹</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">活動介紹</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="#">比賽</a></li>
+                                                <li><a href="#">檢定</a></li>
+                                                <li><a href="#">活動</a></li>
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">課程</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="video-course.html">影音課程</a></li>
+                                                <li><a href="entity-course.html">實體課程</a></li>
+                                                <li><a href="live-course.html">直播課程</a></li>
+                                                <!-- <li><a href="#">ＯＭＯ課程</a></li> -->
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">商品</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="#">新品上市</a></li>
+                                                <li><a href="#">限時優惠</a></li>
+                                                <li><a href="#">樂高玩具</a></li>
+                                                <li><a href="#">樂高教育</a></li>
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#">據點查詢</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#">其它</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 登入/註冊/購物車/搜尋 -->
+                            <div class="topInfo">
+                                <ul>
+                                    <li><a href="#" class="icon shopping-cart"><img
+                                                src="images/icon-shopping-cart.svg"><span
+                                                class="shopping-cart-count">2</span></a>
+                                    </li>
+                                    <li><a href="#" class="icon" data-toggle="modal" data-target="#pop"><img
+                                                src="images/icon-account.svg"></a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="images/icon-language.svg">
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">繁體中文</a>
+                                            <a class="dropdown-item" href="#">简体中文</a>
+                                            <a class="dropdown-item" href="#">English</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- 主選單_end -->
+
+            <!-- 內容_start -->
+            <section class="pageContent">
+                <!-- breadcrumb_start -->
+                <div class="breadcrumbs-wrapper">
+                    <div class="container">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">會員專區</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <!-- breadcrumb_end -->
+
+                <!-- member_course_record_start -->
+                <div class="CoursePtContainer">
+                    <div class="container">
+                        <div class="row">
+                            <!-- member_left_web_start -->
+                            <div class="col-md-3 d-none d-lg-block d-md-block">
+                                <ul class="list-group left-list">
+                                    <li class="list-group-item"><a href="#">會員資料</a></li>
+                                    <li class="list-group-item"><a href="#">訂單記錄</a></li>
+                                    <!-- <li class="list-group-item"><a href="#">關係學員</a></li> -->
+                                    <li class="list-group-item "><a href="#">課程記錄</a></li>
+                                </ul>
+                            </div>
+                            <!-- member_left_web_end -->
+
+                            <!-- member_left_mobile_start -->
+                            <div class="col-sm-12 d-sm-block d-md-none">
+                                <ul class="left-list">
+                                    <li class="left-list-item"><a href="#">會員資料</a></li>
+                                    <li class="left-list-item"><a href="#">訂單記錄</a></li>
+                                    <!-- <li class="left-list-item"><a href="#">關係學員</a></li> -->
+                                    <li class="left-list-item"><a href="#">課程記錄</a></li>
+                                </ul>
+                            </div>
+                            <!-- member_left_mobile_end -->
+
+                            <!-- member_right_start -->
+                            <div class="col-md-9 col-sm-12">
+                                <!-- member_info_start -->
+                                <div class="shadow-sm">
+                                    <div class="member-wrapper">
+                                        <div class="member-photo-wrapper">
+                                            <div>
+                                                <button class="btn-upload"></button>
+                                            </div>
+                                            <div class="member-photo"><img class="member-photo-upload"
+                                                    src="images/100x100.png"></div>
+                                        </div>
+                                        <div class="member-info">
+                                            <div class="member-name">陳育城</div>
+                                            <div class="member-desc">
+                                                <p>點數：<span class="member-point">5</span></p>
+                                                <p>個人帳號：mikechen</p>
+                                                <p>電子郵箱：hennanbang@gmail.com</p>
+                                                <p>手機號碼：0911876567</p>
+                                                <p>已報名課程： <a href="#" target="_blank">Python</a>, <a href="#"
+                                                        target="_blabk">機器人</a>, <a href="#" target="_blank">樂高機器人</a>,
+                                                    <a href="#" target="_blank">程式設計</a>
+                                                </p>
+                                            </div>
+                                            <button type="button" class="btn-general mt-20">修改個人資料</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- member_info_end -->
+
+                                <!-- member_relationship_student_start -->
+                                <div class="shadow-sm">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="pageTitle">關係學員</div>
+                                        <button type="button" class="btn-general mb-40" data-toggle="modal"
+                                            data-target="#SetRelationship">＋</button>
+                                    </div>
+                                    <div class="member-list">
+                                        <table class="member-list table table-hover table-condensed">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width:12%">關係</th>
+                                                    <th style="width:12%">姓名</th>
+                                                    <th style="width:12%">生日</th>
+                                                    <th style="width:12%">學校</th>
+                                                    <th style="width:12%">年級</th>
+                                                    <th style="width:20%">備註</th>
+                                                    <th style="width:20%">設定</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td data-th="關係" class="relationship">父子</td>
+                                                    <td data-th="姓名" class="name">陳至浩</td>
+                                                    <td data-th="生日" class="birthday">90-10-10</td>
+                                                    <td data-th="學校" class="school">新埔國小</td>
+                                                    <td data-th="年級" class="grade">三</td>
+                                                    <td data-th="備註" class="remark">活潑好動，注意力不集中，請老師多注意</td>
+                                                    <td data-th="設定">
+                                                        <button type="button"
+                                                            class="btn-general btn-block btn-outline">修改</button>
+                                                        <button type="button" class="btn-general btn-block"
+                                                            data-toggle="modal" data-target="#delete">刪除</button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!-- member_relationship_student_end -->
+
+                                <!-- member_order_record_list_start -->
+                                <div class="shadow-sm">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="pageTitle">訂單紀錄列表</div>
+                                    </div>
+                                    <div class="member-list">
+                                        <table class="member-list table table-hover table-condensed">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width:12%">訂單編號</th>
+                                                    <th style="width:12%">結帳日期</th>
+                                                    <th style="width:12%">金額</th>
+                                                    <th style="width:12%">詳細訂單</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td data-th="訂單編號" class="order-number">1612335270895VVJc2Ic</td>
+                                                    <td data-th="結帳日期" class="order-date">2021-01-10</td>
+                                                    <td data-th="金額" class="order-price">NT$600</td>
+                                                    <td data-th="詳細訂單"><button class="btn-general btn-block">查看</button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!-- member_order_record_list_end -->
+                            </div>
+                        </div>
+                        <!-- member_right_end -->
+                    </div>
+                </div>
+    </div>
+    <!-- member_course_record_end -->
+    <!-- 內容_end -->
+    </section>
+
+    <!-- 頁尾_start -->
+    <footer class="footerContainer">
+        <!-- 頁尾公司資訊_start -->
+        <div class="companyInfoContainer">
+            <!-- 公司資訊 -->
+            <div class="companyInfoContent">
+                <div class="container">
+                    <div class="companyInfoContentInner">
+                        <div class="row">
+                            <!-- logo -->
+                            <div class="col-md-3 col-sm-12 footerLogo"><a href="#"><img
+                                        src="images/footer-logo.svg"></a>
+                            </div>
+                            <!-- 公司資訊 -->
+                            <address class="col-md-3 col-sm-12">
+                                <h4 class="txtSubtitle">聯絡資訊</h4>
+                                <div class="companyInfo">
+                                    <ul>
+                                        <li>
+                                            <p class="txtNormal"><span class="material-icons">
+                                                    location_on
+                                                </span><a href="https://goo.gl/maps/YPcuPoaDUYS6CsEV6"
+                                                    target="_blank">110台北市光復南路495號7樓</a>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><span class="material-icons">
+                                                    call
+                                                </span><a href="tel:02-8788-1658">02-8788-1658</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><span class="material-icons">
+                                                    email
+                                                </span><a href="mailto:kksteam360@kkitc.net">kksteam360@kkitc.net</a>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="companySocial">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/KKSTEAM360" target="_blank">
+                                                <img src="images/icon-fb.svg">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/kksteam360/" target="_blank">
+                                                <img src="images/icon-instagram.svg">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/channel/UCE03X676xP1-YL5uealCXNg"
+                                                target="_blank">
+                                                <img src="images/icon-youtube.svg">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://line.me/R/ti/p/%40891curqi" target="_blank">
+                                                <img src="images/icon-line.svg">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </address>
+                            <!-- 快速連結 -->
+                            <div class="col-md-6 col-sm-12">
+                                <div class="quickLink">
+                                    <ul>
+                                        <h4 class="txtSubtitle"><a href="#" target="_blank">活動公告</a></h4>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">最新消息</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">部落格</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">其他說明</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="quickLink">
+                                    <h4 class="txtSubtitle"><a href="#" target="_blank">課程</a></h4>
+                                    <ul>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">實體課程</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">直播課程</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">影音課程</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">OMO課程</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="quickLink">
+                                    <h4 class="txtSubtitle"><a href="#" target="_blank">商品</a></h4>
+                                    <ul>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">新品上市</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">限時優惠</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">樂高玩具</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">樂高教育</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="quickLink">
+                                    <h4 class="txtSubtitle"><a href="#" target="_blank">其它</a></h4>
+                                    <ul>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">客服諮詢</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">檔案下載</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="quickLink">
+                                    <h4 class="txtSubtitle"><a href="#" target="_blabk">講師介紹</h4>
+                                    <h4 class="txtSubtitle"><a href="#" target="_blabk">據點查詢</h4>
+                                    <h4 class="txtSubtitle"><a href="#" target="_blabk">隱私權政策</h4>
+                                    <h4 class="txtSubtitle"><a href="#" target="_blabk">服務條款</h4>
+                                    <h4 class="txtSubtitle"><a href="#" target="_blabk">常見問題</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 頁尾公司資訊_end -->
+        <!-- 版權宣告/政策/網站地圖_start -->
+        <div class="copyrightPolicySitemapContent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <!-- 版權宣告 -->
+                        <div class="copyright">
+                            <p>©
+                                <script>
+                                    document.write(new Date().getFullYear())
+                                </script>貝登堡 OMO AI 學習平台.
+                                All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 版權宣告/政策/網站地圖_end -->
+
+        <!-- 設定關係學員_start -->
+        <div class="modal fade" id="SetRelationship" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">設定關係學員</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4"><span class="att">*</span> 關係</label>
+                                    <input type="relationship" class="form-control" id="inputRelationship"
+                                        placeholder="輸入關係">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputName"><span class="att">*</span> 姓名</label>
+                                    <input type="name" class="form-control" id="inputName" placeholder="輸入姓名">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputBirthday"><span class="att">*</span> 生日</label>
+                                <select id="inputBirthday" class="form-control">
+                                    <option selected>西元/月/日</option>
+                                    <option>出現日曆</option>
+                                </select>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4"><span class="att">*</span> 學校</label>
+                                    <input type="relationship" class="form-control" id="inputRelationship"
+                                        placeholder="輸入學校/現行服務單位">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputName"><span class="att">*</span> 年級</label>
+                                    <input type="name" class="form-control" id="inputName" placeholder="輸入年級/非學生請填無">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">備註</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                    placeholder="有無須照護之特殊狀況"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-submit">完成</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 設定關係學員_end -->
+
+        <!-- 刪除_start -->
+        <div class="modal fade" id="delete" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center">確定刪除？</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">否</button>
+                        <button type="button" class="btn btn-primary">是</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 刪除_end -->
+    </footer>
+    <!-- 頁尾_end -->
+
+    <!-- 常駐項_start -->
+    <aside class="floatMenuContainer">
+        <ul>
+            <li class="freeClass">
+                <a href="contact.html" target="_blank">
+                    <span class="freeClassTitle">免費</span>
+                    <span class="freeClassText">領取課程</span>
+                </a>
+            </li>
+            <li class="goTop">
+                <a href="javascript:void(0);">
+                    <img class="ArrowTop" src="images/icon-top.svg">
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <!-- 常駐項_end -->
+    </main>
+    </div>
+    <!-- (Bootstrap) Latest compiled and minified JavaScript -->
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+        integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+        integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+        crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        $('body').bootstrapMaterialDesign();
+    </script>
+    <!-- owl_carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- 自定義js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

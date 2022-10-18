@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>網頁設計/系統建置服務</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="copyright" content="Net-Chinese Co.,Ltd">
+    <link rel="canonical" href="">
+    <meta property="og:description" content="">
+    <!-- OpenGraph Meta Tags -->
+    <meta property="og:title" content="網頁設計/系統建置服務">
+    <meta property="og:description" content="" />
+    <meta property="og:locale" content="zh-TW">
+    <meta property="og:rich_attachment" content="true">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="網頁設計/系統建置服務">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="images/default-tw-logo.png" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="135">
+    <!--語系選項-->
+    <!-- apple mobile -->
+    <link content="Webdesign-Net-Chinese" name="apple-mobile-web-app-title">
+    <link content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="URL" content="">
+    <meta name="copyright" content="Webdesign-Net-Chinese">
+    <meta content="" property="og:url">
+    <meta content="" property="sharing_url">
+    <!-- 手機圖示 -->
+    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="images/touch-icon.jpg">
+    <!-- 網頁圖示 -->
+    <link rel="shortcut icon" sizes="54x54" href="images/favicon.png">
+    <!-- bootstrap 4.5.3 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- jQuery Core 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet"
+        media="all" onload="this.media='all'">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        media="all" onload="this.media='all'">
+    <!-- material-icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" media="all"
+        onload="this.media='all'">
+    <!-- 定義全站html標籤、網站字體或是取消套件預設 -->
+    <link rel="stylesheet" href="css/globe.css">
+    <!-- 首頁專用Css -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- 預留可自定義Css -->
+    <link rel="stylesheet" href="css/page.css">
+    <!-- 定義全站中常駐項目 -->
+    <link rel="stylesheet" href="css/layout.css">
+    <script type="application/ld+json">
+        [
+            {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "name": "極簡風格",
+                "keywords":"網頁設計,系統建置,網站設計團隊",
+                "description": "製作網頁，必須了解的課題，提供網頁設計相關的文章與見解，文章權限來自於網路中文-網頁設計/系統建置服務，請勿轉載。"
+            },
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "WebPage",
+                            "@id": "https://webdesign.net-chinese.com.tw",
+                            "name": "首頁"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "WebPage",
+                            "@id": "https://webdesign.net-chinese.com.tw/blog-list",
+                            "name": "新知分享"
+                        }
+                    }
+                ]
+            },
+            {
+            "@context" : "http://schema.org",
+            "@type" : "QAPage",
+            "mainEntity" : {
+                "@type" : "Question",
+                "name" : "RWD是甚麼？怎麼運作的？",
+                "acceptedAnswer" : {
+                "@type" : "Answer",
+                "text" : "RWD是現行最為主流的網站設計方式，為響應式網頁設計(Responsive Web Design)的簡稱，亦稱為回應式網頁設計或適應性網頁設計。其最大的特點為可配合各種螢幕尺寸， 自行調整網站顯示內容，讓使用者不管用甚麼裝置瀏覽網站都能方便順暢。 舊有的網站設計方式是依照不同螢幕尺寸開啟不同網站，雖然網站內文圖片皆相同使其看起來為同一網站， 實際上是工程師做了多個網站，並依照不同螢幕寬度去調整程式、連結到不同網址(可視為多個內容相似的網站)。 RWD網站設計則是運用CSS設定分界點(螢幕寬度)，每個分界點下有不同的設定值(例如：字多大、顏色是甚麼、間距多寬等)， 使其雖為一個網站，卻能在各種螢幕尺寸下展現出不同樣式。"
+                }
+            }
+            }, {
+            "@context" : "http://schema.org",
+            "@type" : "QAPage",
+            "mainEntity" : {
+                "@type" : "Question",
+                "name" : "AWD又是甚麼？又是怎麼運作的？",
+                "acceptedAnswer" : {
+                "@type" : "Answer",
+                "text" : "AWD為自適式網頁設計(Adaptive Web Design)的簡稱，其也是使網站在各種裝置下顯示對應樣式的設計方式。較特殊的是，其製作方式為開發多組CSS，在不同螢幕寬 度下讀取不同支CSS檔案，這使網站各裝置的樣式設計更加彈性、有更多可能性，也相對較穩定。(AWD僅是將CSS分開，並非將所 有程式(html)分開撰寫，其仍是一個網站。)"
+                }
+            }
+            }, {
+            "@context" : "http://schema.org",
+            "@type" : "QAPage",
+            "mainEntity" : {
+                "@type" : "Question",
+                "name" : "RWD／AWD差異？該如何選擇？",
+                "acceptedAnswer" : {
+                "@type" : "Answer",
+                "text" : "兩者之間最大的差異就在CSS，RWD僅生成一組CSS，AWD則是對應螢幕尺寸分界點生成多組CSS，故AWD的開發、維護成本上相對比RWD高；但同時AWD也因著CSS分開撰寫而有較高的彈性與穩定度。 另外，網站資料的數量、大小影響網站效能，若網站龐大複雜(例如：大型購物網站)使用RWD除了較不方便呈現外亦可能出現效能不佳的問題，故AWD建議使用在資料龐大、結構複雜的長期網站； RWD其開發與維護的成本都較低，適合一般形象網站、企業網站等資料量相對較小的網站使用。"
+                }
+            }
+            }, {
+            "@context" : "http://schema.org",
+            "@type" : "QAPage",
+            "mainEntity" : {
+                "@type" : "Question",
+                "name" : "網站使用RWD或AWD很重要嗎？",
+                "acceptedAnswer" : {
+                "@type" : "Answer",
+                "text" : "超！級！重！要！ Google已聲明，RWD對SEO有著莫大的關係，因著現代人們使用手機頻率極高，故SEO排名規則中提到「行動版內容優先索引」， 此政策說明網站在行動裝置上顯示狀態是否良好成為十分重要的排名因素"
+                }
+            }
+            }, {
+            "@context" : "http://schema.org",
+            "@type" : "QAPage",
+            "mainEntity" : {
+                "@type" : "Question",
+                "name" : "下面帶您分析使用RWD與AWD製作網站設計的三大優勢",
+                "acceptedAnswer" : [ {
+                "@type" : "Answer",
+                "text" : "自適應 頁面內容依據裝置尺寸自動調整內容樣式，使用較小尺寸的裝置瀏覽時不需要再來回放大縮小拖移，瀏覽更加方便舒適。這也讓行動裝置使用 者進入網站後願意停留較長時間，這在SEO方面是有益處的，畢竟如果使用者進入網站後若因使用不便或無法順利瀏覽，而快速離開跳回搜尋頁， 該網站可能會被認為不是一個好的搜尋結果，導致網站排名下降。"
+                }, {
+                "@type" : "Answer",
+                "text" : "單一網址 若因不同尺寸對應至不同網址，將導致不同網址其內容卻相似、重複度高，SEO評分可能相對較低甚至被認定為惡意網站。使用RWD、AWD整合成單一網址後 除了SEO優化，對使用者來說使用各種裝置皆能舒適瀏覽網站，不需因應不同尺寸螢幕更換網址，使用上更加方便容易。且單一網址能使各種裝置的網站使 用分析資料集中統計，不會因著網址不同被分散導致統計困難或分析不精準。"
+                }, {
+                "@type" : "Answer",
+                "text" : "• 維護輕鬆 因著單一網址，程式部分無須再分開寫成多個html檔案，在維護上只須修改一次即可同時調整各尺寸螢幕顯示之結果，無需維護多個內 容相同的網頁，維護所需時間可大幅縮減，同時也較不易出錯(畢竟多改容易多錯啊)。"
+                } ]
+            }
+            }, {
+            "@context" : "http://schema.org",
+            "@type" : "QAPage",
+            "mainEntity" : {
+                "@type" : "Question",
+                "name" : "RWD與AWD網站設計需注意甚麼？",
+                "acceptedAnswer" : [ {
+                "@type" : "Answer",
+                "text" : "分界點 首先需要掌握各螢幕尺寸的大小，如此內容才會跟著裝置螢幕做不同的顯示，若沒有抓準分界點，可能會出現不符合的樣式。"
+                }, {
+                "@type" : "Answer",
+                "text" : "做得出來 設計時與舊有設計方式較不同的是，需要時刻考量到該元素在各種螢幕尺寸下如何呈現、程式方面是否會有執行的困難等問題。"
+                }, {
+                "@type" : "Answer",
+                "text" : "順序 頁面中各區塊的呈現也需要經過考量與設計，因為皆是讀取同一支HTML檔，故在區塊編排上亦需考量到各尺寸樣式間的差異。"
+                } ]
+            }
+            } 
+        ]
+    </script>
+</head>
+
+<body>
+
+    <!-- HEADER START -->
+    <header class="header-area">
+        <!-- NAVGITION  -->
+        <div class="navgition navgition-transparent">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- NAVBAR -->
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-logo" href="index.html">
+                                <img src="images/logo.svg">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOne"
+                                aria-controls="navbarOne" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarOne">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a href="index.html" title="首頁">首頁</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#service"
+                                            onclick="javascript:window.location.href='index.html#service'"
+                                            title="服務項目">服務項目</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="WebStyleList.html" title="風格介紹">風格介紹</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="javescript:;" title="網站方案">網站方案</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="Works.html" title="成功案例">成功案例</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="BlogList.html" title="新知分享">新知分享</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="Contact.html" title="聯絡我們">聯絡我們</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- NAVBAR -->
+                    </div>
+                </div>
+            </div>
+            <!-- NAVGITION -->
+        </div>
+
+        <!-- PAGE BANNER START -->
+        <div class="header-page">
+            <img src="images/page-bg.svg">
+        </div>
+        <!-- PAGE BANNER ENDS -->
+    </header>
+    <!--====== HEADER ENDS ======-->
+
+    <!--====== CONTENT START ======-->
+    <section class="page-area">
+        <div class="container">
+            <div class="row">
+                <!--====== BREADCRUMB START ======-->
+                <div class="col-md-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" title="首頁">首頁</a></li>
+                            <li class="breadcrumb-item"><a href="blogList.html" title="新知分享">新知分享</a></li>
+                            <li class="breadcrumb-item active">傳說中的RWD、AWD是甚麼？用哪個好？帶您一探究竟</li>
+                        </ol>
+                    </nav>
+                </div>
+                <!--====== BREADCRUMB ENDS ======-->
+                <!--====== TEXT START ======-->
+                <div class="col-md-12 mb-5">
+                    <div class="d-flex justify-content-end icon-back border-line"><a href="blogList.html"><img
+                                src="images/icon-arrow-back.svg"></a></div>
+                    <div class="header-page-text mt-5">
+                        <h1 class="header-page-title">傳說中的RWD、AWD是甚麼？用哪個好？帶您一探究竟</h1>
+                        <div class="d-flex justify-content-between">
+                            <div class="index-card-date pb-2"><span class="material-icons">
+                                    calendar_month
+                                </span>2022-05-01</div>
+                            <div class="share mt-2">
+                                <a class="share-btn" href="#"><img src="images/icon-line.svg"></a>
+                                <a class="share-btn" href="#"><img src="images/icon-twitter.svg"></a>
+                                <a class="share-btn" href="#"><img src="images/icon-fb.svg"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-contents">
+                        <div class="accordion mb-5" id="article-list">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <button class="btn btn-link btn-block text-left" type="button"
+                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        目錄
+                                    </button>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#article-list">
+                                    <div class="card-body">
+                                        <ol>
+                                            <li><a href="javascript:;" class="navItems" navTo="a-1"
+                                                    title="RWD是甚麼？怎麼運作的？">RWD是甚麼？怎麼運作的？</a>
+                                            </li>
+                                            <li><a href="javascript:;" class="navItems" navTo="a-2"
+                                                    title="AWD又是甚麼？又是怎麼運作的？">AWD又是甚麼？又是怎麼運作的？</a>
+                                            </li>
+                                            <li><a href="javascript:;" class="navItems" navTo="a-3"
+                                                    title="RWD／AWD差異？該如何選擇？">RWD／AWD差異？該如何選擇？</a>
+                                            </li>
+                                            <li><a href="javascript:;" class="navItems" navTo="a-4"
+                                                    title="網站使用RWD或AWD很重要嗎？">網站使用RWD或AWD很重要嗎？</a>
+                                            </li>
+                                            <li><a href="javascript:;" class="navItems" navTo="a-5"
+                                                    title="下面帶您分析使用RWD與AWD製作網站設計的三大優勢">下面帶您分析使用RWD與AWD製作網站設計的三大優勢</a>
+                                            </li>
+                                            <li><a href="javascript:;" class="navItems" navTo="a-6"
+                                                    title="RWD與AWD網站設計需注意甚麼？">RWD與AWD網站設計需注意甚麼？</a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page-text">
+                            <h2 id="a-1" class="txtTitle">RWD是甚麼？怎麼運作的？</h2>
+                            <p>RWD是現行最為主流的網站設計方式，為<a class="text-danger"
+                                    href="https://developers.google.com/search/mobile-sites/mobile-seo/responsive-design"
+                                    target="_blank">響應式網頁設計(Responsive Web
+                                    Design)</a>的簡稱，亦稱為回應式網頁設計或適應性網頁設計。其最大的特點為可配合各種螢幕尺寸，
+                                自行調整網站顯示內容，讓使用者不管用甚麼裝置瀏覽網站都能方便順暢。</p>
+                            <p class="pb-4">舊有的網站設計方式是依照不同螢幕尺寸開啟不同網站，雖然網站內文圖片皆相同使其看起來為同一網站，
+                                實際上是工程師做了多個網站，並依照不同螢幕寬度去調整程式、連結到不同網址(可視為多個內容相似的網站)。
+                                RWD網站設計則是運用CSS設定分界點(螢幕寬度)，每個分界點下有不同的設定值(例如：字多大、顏色是甚麼、間距多寬等)，
+                                使其雖為一個網站，卻能在各種螢幕尺寸下展現出不同樣式。</p>
+                            <span id="a-2"></span>
+                            <h2 class="txtTitle">AWD又是甚麼？又是怎麼運作的？</h2>
+                            <p class="pb-4">AWD為自適式網頁設計(Adaptive Web
+                                Design)的簡稱，其也是使網站在各種裝置下顯示對應樣式的設計方式。較特殊的是，其製作方式為開發多組CSS，在不同螢幕寬
+                                度下讀取不同支CSS檔案，這使網站各裝置的樣式設計更加彈性、有更多可能性，也相對較穩定。(AWD僅是將CSS分開，並非將所
+                                有程式(html)分開撰寫，其仍是一個網站。)
+                            </p>
+                            <span id="a-3"></span>
+                            <h2 class="txtTitle">RWD／AWD差異？該如何選擇？</h2>
+                            <p>
+                                兩者之間最大的差異就在CSS，RWD僅生成一組CSS，AWD則是對應螢幕尺寸分界點生成多組CSS，故AWD的開發、維護成本上相對比RWD高；但同時AWD也因著CSS分開撰寫而有較高的彈性與穩定度。
+                                另外，網站資料的數量、大小影響網站效能，若網站龐大複雜(例如：大型購物網站)使用RWD除了較不方便呈現外亦可能出現效能不佳的問題，故AWD建議使用在資料龐大、結構複雜的長期網站；
+                                RWD其開發與維護的成本都較低，適合一般形象網站、企業網站等資料量相對較小的網站使用。
+                            </p>
+                            <div class="col-md-8 m-auto">
+                                <table class="table mt-4 mb-4">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col" class="text-center">RWD</th>
+                                            <th scope="col" class="text-center">AWD</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">設計彈性</th>
+                                            <td>一組CSS，彈性較小</td>
+                                            <td>多組CSS，彈性較大</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">開發成本</th>
+                                            <td>成本較低，時間快</td>
+                                            <td>成本較高，時間快</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">維護成本</th>
+                                            <td>維護較快速，容易</td>
+                                            <td>維護較較慢，複雜</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">合適網站</th>
+                                            <td>較單純，資料小的網站</td>
+                                            <td>較複雜，資料量多的網站</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <span id="a-4"></span>
+                            <h2 class="txtTitle">網站使用RWD或AWD很重要嗎？</h2>
+                            <p class="pb-4">
+                                超！級！重！要！<br>
+                                Google已聲明，RWD對SEO有著莫大的關係，因著現代人們使用手機頻率極高，故SEO排名規則中提到<a class="text-danger"
+                                    href="https://developers.google.com/search/mobile-sites/mobile-first-indexing?hl=zh-tw"
+                                    target="_blank">「行動版內容優先索引」</a>，
+                                此政策說明網站在行動裝置上顯示狀態是否良好成為十分重要的排名因素
+                            </p>
+                            <span id="a-5"></span>
+                            <h2 class="txtTitle">下面帶您分析使用RWD與AWD製作網站設計的三大優勢：</h2>
+                            <p>• 自適應</p>
+                            <p class="pl-3 pb-3">頁面內容依據裝置尺寸自動調整內容樣式，使用較小尺寸的裝置瀏覽時不需要再來回放大縮小拖移，瀏覽更加方便舒適。這也讓行動裝置使用
+                                者進入網站後願意停留較長時間，這在SEO方面是有益處的，畢竟如果使用者進入網站後若因使用不便或無法順利瀏覽，而快速離開跳回搜尋頁，
+                                該網站可能會被認為不是一個好的搜尋結果，導致網站排名下降。
+                            </p>
+                            <p>• 單一網址</p>
+                            <p class="pl-3 pb-3">
+                                若因不同尺寸對應至不同網址，將導致不同網址其內容卻相似、重複度高，SEO評分可能相對較低甚至被認定為惡意網站。使用RWD、AWD整合成單一網址後
+                                除了SEO優化，對使用者來說使用各種裝置皆能舒適瀏覽網站，不需因應不同尺寸螢幕更換網址，使用上更加方便容易。且單一網址能使各種裝置的網站使
+                                用分析資料集中統計，不會因著網址不同被分散導致統計困難或分析不精準。
+                            </p>
+                            <p>• 維護輕鬆</p>
+                            <p class="pl-3 pb-4">因著單一網址，程式部分無須再分開寫成多個html檔案，在維護上只須修改一次即可同時調整各尺寸螢幕顯示之結果，無需維護多個內
+                                容相同的網頁，維護所需時間可大幅縮減，同時也較不易出錯(畢竟多改容易多錯啊)。
+                            </p>
+                            <h2 id="a-6" class="txtTitle">RWD與AWD網站設計需注意甚麼？</h2>
+                            <p>• 分界點</p>
+                            <p class="pl-3 pb-3">首先需要掌握各螢幕尺寸的大小，如此內容才會跟著裝置螢幕做不同的顯示，若沒有抓準分界點，可能會出現不符合的樣式。</p>
+                            <p>• 做得出來</p>
+                            <p class="pl-3 pb-3">設計時與舊有設計方式較不同的是，需要時刻考量到該元素在各種螢幕尺寸下如何呈現、程式方面是否會有執行的困難等問題。</p>
+                            <p>• 順序</p>
+                            <p class="pl-3 pb-3">頁面中各區塊的呈現也需要經過考量與設計，因為皆是讀取同一支HTML檔，故在區塊編排上亦需考量到各尺寸樣式間的差異。</p>
+                            <p>
+                                除上述所提及的部分外，這樣的網站設計方式還需有諸多考量。而網路中文專案建置團隊能夠在為您設計網站的同時，
+                                兼顧RWD/AWD網站設計，為您帶來滿意的網站外觀與實用的SEO優化！</p>
+                        </div>
+                    </div>
+                    <!--====== TEXT ENDS ======-->
+
+                    <!--====== RELATED BLOG START ======-->
+                    <div class="col-md-12 col-sm-12">
+                        <div class="related-blog">
+                            <h2 class="header-page-title mb-3">相關文章</h2>
+                            <ul class="related-blog-list">
+                                <li class="related-blog-item">
+                                    <a href="#" class="related-blog-link" title="傳說中的RWD、AWD是甚麼？用哪個好？帶您一探究竟">
+                                        <div class="related-blog-cover"><img src="images/blog/knowledge-2.svg"></div>
+                                        <div class="related-blog-content">
+                                            <h4 class="related-blog-title">
+                                                度甚更公來民一們國有度甚更公來民一們國有度甚更公來民一們國有度甚更公來民一們國有度甚更公來民一們國有</h4>
+                                            <p class="text">
+                                                來全情準張場多師是定的、數嗎來減馬可關室做是代驚陸戰刻也民創有下。計期了前臺遠態！藝突現她同你國型指問業減處我小急得會臺全只一次斯軍，技岸便一樂防小總天合底！看整出算本，班那車幾眾前一人通證木。得行位金任一……可言出的讓門是創便往、沒物成而否、去你活本黃
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="related-blog-item">
+                                    <a href="#" class="related-blog-link" title="傳說中的RWD、AWD是甚麼？用哪個好？帶您一探究竟">
+                                        <div class="related-blog-cover"><img src="images/blog/knowledge-2.svg"></div>
+                                        <div class="related-blog-content">
+                                            <h4 class="related-blog-title">
+                                                度甚更公來民一們國有度甚更公來民一們國有度甚更公來民一們國有度甚更公來民一們國有度甚更公來民一們國有</h4>
+                                            <p class="text">
+                                                來全情準張場多師是定的、數嗎來減馬可關室做是代驚陸戰刻也民創有下。計期了前臺遠態！藝突現她同你國型指問業減處我小急得會臺全只一次斯軍，技岸便一樂防小總天合底！看整出算本，班那車幾眾前一人通證木。得行位金任一……可言出的讓門是創便往、沒物成而否、去你活本黃
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="related-blog-item">
+                                    <a href="#" class="related-blog-link" title="傳說中的RWD、AWD是甚麼？用哪個好？帶您一探究竟">
+                                        <div class="related-blog-cover"><img src="images/blog/knowledge-2.svg"></div>
+                                        <div class="related-blog-content">
+                                            <h4 class="related-blog-title">
+                                                度甚更公來民一們國有度甚更公來民一們國有度甚更公來民一們國有度甚更公來民一們國有度甚更公來民一們國有</h4>
+                                            <p class="text">
+                                                來全情準張場多師是定的、數嗎來減馬可關室做是代驚陸戰刻也民創有下。計期了前臺遠態！藝突現她同你國型指問業減處我小急得會臺全只一次斯軍，技岸便一樂防小總天合底！看整出算本，班那車幾眾前一人通證木。得行位金任一……可言出的讓門是創便往、沒物成而否、去你活本黃
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--====== RELATED BLOG ENDS ======-->
+                </div>
+            </div>
+    </section>
+    <!--====== CONTENT ENDS ======-->
+
+    <!--====== FOOTER START ======-->
+    <footer id="footer" class="footer-area">
+        <div class="footer-widget">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12">
+                        <div class="footer-logo-support">
+                            <div class="footer-logo mb-3">
+                                <img src="images/footer-logo.svg" width="150" height="67" alt="網頁設計系統建置服務">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="contact-info">
+                            <ul>
+                                <li><span class="material-icons">phone</span><a href="tel:+886-2-25319696"
+                                        title="02-2531-9696#703">02-2531-9696#703</a></li>
+                                <li><span class="material-icons">fax</span>02-2531-9522</li>
+                                <li><span class="material-icons"> watch_later</span>週一至週五 上午9:00-晚上6:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <div class="contact-info">
+                            <ul>
+                                <li><a href="#" title="隱私權政策">隱私權政策</a></li>
+                                <li><a href="#" title="個資保護政策">個資保護政策</a></li>
+                                <li><a href="#" title="資訊安全政策">資訊安全政策</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright text-center">
+                            <p class="footer-text">網路中文資訊股份有限公司版權所有 © Copyright <span id="year">2022</span> Net-Chinese
+                                Co., Ltd. All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--====== FOOTER ENDS ======-->
+
+    <!--====== 常駐項 START ======-->
+    <aside class="floatMenuContainer">
+        <ul>
+            <li>
+                <a href="Contact.html" title="聯絡我們" class="btn-contact">
+                    <span><img src="images/icon-contact.svg"></span>
+                    <span>聯絡我們</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" title="回頂部" class="goTop">
+                    <span><img src="images/icon-top.svg"></span>
+                    <span>Top</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <!--====== 常駐項 ENDS ======-->
+
+
+
+    <!--  jQ 被動事件監聽器 -->
+    <script>
+        $(function () {
+            jQuery.event.special.touchstart = {
+                setup: function (_, ns, handle) {
+                    this.addEventListener("touchstart", handle, {
+                        passive: !ns.includes("noPreventDefault")
+                    });
+                }
+            };
+            jQuery.event.special.touchmove = {
+                setup: function (_, ns, handle) {
+                    this.addEventListener("touchmove", handle, {
+                        passive: !ns.includes("noPreventDefault")
+                    });
+                }
+            };
+            jQuery.event.special.wheel = {
+                setup: function (_, ns, handle) {
+                    this.addEventListener("wheel", handle, {
+                        passive: true
+                    });
+                }
+            };
+            jQuery.event.special.mousewheel = {
+                setup: function (_, ns, handle) {
+                    this.addEventListener("mousewheel", handle, {
+                        passive: true
+                    });
+                }
+            };
+        });
+    </script>
+    <!--====== Bootstrap js ======-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <!--====== Scrolling Nav js ======-->
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/scrolling-nav.js"></script>
+    <!-- owl_carousel -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <!--====== js ======-->
+    <script type="text/javascript" src="js/form-validation.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- 更新年份 -->
+    <script>
+        document.getElementById('year').innerHTML = new Date().getFullYear() + '';
+    </script>
+    <!-- 錨點定位位置 -->
+    <script>
+        $('.navItems').click(function () {
+            var navto = $(this).attr('navto');
+            if (navto != "#") {
+                var $div = $('#' + navto);
+                var top = $div.offset().top || 0;
+                $('html,body').animate({
+                    'scroll-top': top - 70
+                }, 500);
+            } else {
+                $('html,body').animate({
+                    'scroll-top': 0
+                }, 500);
+            }
+        });
+    </script>
+</body>
+
+</html>

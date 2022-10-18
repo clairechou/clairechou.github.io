@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-web-style-oriental-color-03">
+      <rect width="80" height="80"/>
+    </clipPath>
+  </defs>
+  <g id="web-style-oriental-color-03" clip-path="url(#clip-web-style-oriental-color-03)">
+    <rect width="80" height="80" fill="#fff"/>
+    <rect id="Rectangle_354" data-name="Rectangle 354" width="80" height="80" rx="4" transform="translate(0 0)" fill="#e8340c"/>
+    <text id="_E8340C" data-name="#E8340C" transform="translate(40 60)" fill="#fff" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="-30.107" y="0">#E8340C</tspan></text>
+    <text id="朱紅色" transform="translate(40 35)" fill="#fff" font-size="16" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="-24.8" y="0">朱紅色</tspan></text>
+  </g>
+</svg>

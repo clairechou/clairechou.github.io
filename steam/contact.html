@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>線上學習平台</title>
+    <!-- 頁簽顯示LOGO -->
+    <link rel="shortcut icon" href="images/ico-logo.ico">
+    <!-- (Bootstrap) Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- jQuery Core 3.1.0 -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- material-icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- 自定義Css_start-->
+    <!-- 定義全站html標籤、網站字體或是取消套件預設 -->
+    <link rel="stylesheet" href="css/global.css">
+    <!-- 定義全站中常駐項目 -->
+    <link rel="stylesheet" href="css/layout.css">
+    <!-- 首頁專用Css -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- 內頁專用Css -->
+    <link rel="stylesheet" href="css/page.css">
+    <!-- 預留可自定義Css -->
+
+</head>
+
+<body>
+    <div class="container-fluid bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay indexContainer">
+        <!-- 手機選單_start -->
+        <header class="bmd-layout-header mbHeadContainer animate">
+            <div class="bg-faded">
+                <div class="mbHeadContainerInner">
+                    <div class="mbMenuBtn">
+                        <button class="navbar-toggler" type="button" data-toggle="drawer" data-target="#dw-s2">
+                            <span class="mbMenuBar"></span>
+                        </button>
+                    </div>
+                    <div class="logo mbLogo">
+                        <a href="index.html"><img src="images/logo.svg" alt="OMO AI學習平台"></a>
+                    </div>
+                    <!-- 登入/註冊/購物車/搜尋 -->
+                    <div class="topInfo">
+                        <ul>
+                            <li><a href="#" class="icon shopping-cart"><img src="images/icon-shopping-cart.svg"><span
+                                        class="shopping-cart-count">2</span></a>
+                            </li>
+                            <li><a href="#" class="icon" data-toggle="modal" data-target="#pop"><img
+                                        src="images/icon-account.svg"></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="images/icon-language.svg">
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">繁體中文</a>
+                                    <a class="dropdown-item" href="#">简体中文</a>
+                                    <a class="dropdown-item" href="#">English</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="dw-s2" class="bmd-layout-drawer bg-faded mbMenu">
+            <div id="leftMenu">
+                <div class="mbClose">
+                    <button type="button" class="mbCloseBtn"><span class="material-icons">close</span></button>
+                </div>
+                <ul class="nav sb-menu nav-list"></ul>
+            </div>
+        </div>
+        <!-- 手機選單_end -->
+        <main class="bmd-layout-content mainContainer">
+            <!-- 主選單_start -->
+            <header class="nopadding">
+                <div class="menuContainer">
+                    <div class="menuContainerInner">
+                        <nav class="menuBlock">
+                            <!-- logo -->
+                            <div class="logo pcLogo">
+                                <h1>
+                                    <a href="index.html"><img src="images/logo.svg" alt="OMO AI學習平台"></a>
+                                </h1>
+                            </div>
+                            <!-- nav_bar -->
+                            <div class="navBar">
+                                <div class="navInner">
+                                    <ul id="mainMenu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">活動公告</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="#">最新消息</a></li>
+                                                <li><a href="#">部落格</a></li>
+                                                <li><a href="#">其他說明</a></li>
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#">講師介紹</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">活動介紹</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="#">比賽</a></li>
+                                                <li><a href="#">檢定</a></li>
+                                                <li><a href="#">活動</a></li>
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">課程</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="video-course.html">影音課程</a></li>
+                                                <li><a href="entity-course.html">實體課程</a></li>
+                                                <li><a href="live-course.html">直播課程</a></li>
+                                                <!-- <li><a href="#">ＯＭＯ課程</a></li> -->
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">商品</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="#">新品上市</a></li>
+                                                <li><a href="#">限時優惠</a></li>
+                                                <li><a href="#">樂高玩具</a></li>
+                                                <li><a href="#">樂高教育</a></li>
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#">據點查詢</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#">其它</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 登入/註冊/購物車/搜尋 -->
+                            <div class="topInfo">
+                                <ul>
+                                    <li><a href="#" class="icon shopping-cart"><img
+                                                src="images/icon-shopping-cart.svg"><span
+                                                class="shopping-cart-count">2</span></a>
+                                    </li>
+                                    <li><a href="#" class="icon" data-toggle="modal" data-target="#pop"><img
+                                                src="images/icon-account.svg"></a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="images/icon-language.svg">
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">繁體中文</a>
+                                            <a class="dropdown-item" href="#">简体中文</a>
+                                            <a class="dropdown-item" href="#">English</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- 主選單_end -->
+
+            <!-- 內容_start -->
+            <!-- contact_start -->
+            <section class="pageContent">
+                <!-- contact_start -->
+                <div class="contact">
+                    <div class="container">
+                        <!-- breadcrumb_start -->
+                        <div class="breadcrumbs-wrapper">
+                            <div class="container">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">聯絡我們</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- breadcrumb_end -->
+                        <div class="contactTitle">聯絡我們</div>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <div class="contactContent">
+                                    <form>
+                                        <div class="contactAtt"><span class="att">*</span> 必填欄位</div>
+                                        <div class="form-group pb-10">
+                                            <label for="InputName"><span class="att">*</span> 姓名</label>
+                                            <input type="text" class="form-control" id="Name" placeholder="輸入姓名">
+                                            <!-- <small id="Name" class="form-text text-muted prompt-text">提示文字：請輸入姓名
+                                            </small> -->
+                                        </div>
+                                        <div class="form-group pb-10">
+                                            <label for="InputPhone"><span class="att">*</span> 聯絡電話</label>
+                                            <input type="text" class="form-control" id="Phone" placeholder="輸入聯絡電話">
+                                            <!-- <small id="Phone" class="form-text text-muted prompt-text">提示文字：輸入錯誤
+                                            </small> -->
+                                        </div>
+                                        <div class="form-group pb-10">
+                                            <div>
+                                                <label for="InputTime"><span class="att">*</span>聯絡時間 (可複選)</label>
+                                            </div>
+                                            <div class="form-check form-check-inline pb-10">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                                    value="option1">
+                                                <label class="form-check-label"
+                                                    for="inlineCheckbox1">早上10:00-12:00</label>
+                                            </div>
+                                            <div class="form-check form-check-inline pb-10">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                                    value="option2">
+                                                <label class="form-check-label" for="inlineCheckbox2">中午12:00~1:00
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-check-inline pb-10">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                                    value="option3">
+                                                <label class="form-check-label"
+                                                    for="inlineCheckbox3">下午1:00-5:00</label>
+                                            </div>
+                                            <div class="form-check form-check-inline pb-10">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox4"
+                                                    value="option4">
+                                                <label class="form-check-label"
+                                                    for="inlineCheckbox4">晚上6:00-9:00</label>
+                                            </div>
+                                            <!-- <small id="Time" class="form-text text-muted prompt-text">提示文字：請選擇時間</small> -->
+                                        </div>
+                                        <div class="form-group pb-10">
+                                            <label for="InputEmail"><span class="att">*</span> E-Mail</label>
+                                            <input type="text" class="form-control" id="Email" placeholder="輸入電子信箱">
+                                            <!-- <small id="Email" class="form-text text-muted prompt-text">提示文字：輸入錯誤
+                                            </small> -->
+                                        </div>
+                                        <div class="contactSubText text-center mt-4 mb-4">
+                                            <p class="subtitle">免費體驗課程，請填寫以下資訊</p>
+                                        </div>
+                                        <div class="form-group pb-10">
+                                            <label for="preferred_course_pack">想體驗的課程</label>
+                                            <select id="preferred_course_pack" class="custom-select"
+                                                name="preferred_course_pack">
+                                                <option selected>請選擇課程</option>
+                                                <option>3+ 黏土課</option>
+                                                <option>4+ 黏土課</option>
+                                                <option>5+ 黏土課</option>
+                                                <option>108 課綱學習歷程，國際認保證班，資優升學班</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group pb-10">
+                                            <label for="ever_attend_lego_or_steam">有沒有上過"樂高積木"或"STEAM"課程？</label>
+                                            <select id="ever_attend_lego_or_steam" class="custom-select"
+                                                name="ever_attend_lego_or_steam">
+                                                <option value=true>有</option>
+                                                <option value=false>沒有</option>
+                                                <option value=null selected>不確定</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group pb-10">
+                                            <!-- <label for="preferred_store">想前往體驗的門市</label>
+                                            <select id="preferred_store" class="custom-select" name="preferred_store">
+                                                <option selected>請選擇門市</option>
+                                                <option>台北仁愛分校 - 台北市大安區仁愛路四段406號</option>
+                                                <option>新北永和分校 - 新北市永和區永元路36號</option>
+                                                <option>台中北屯分校 - 台中市北屯區河北路二段180號</option>
+                                                <option>高雄SOGO分校 - 高雄市前鎮區三多三路217號12樓</option>
+                                            </select> -->
+                                            <label for="preferred_store">想前往體驗的門市</label>
+                                            <div class="dropdown ItemStore">
+                                                <button class="btnStore storeArrow dropdown-toggle" type="button"
+                                                    id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    請選擇門市
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                                    <button class="dropdown-item" type="button"><span
+                                                            class="store">台北仁愛分校 </span><br><span
+                                                            class="storeSmall">台北市大安區仁愛路四段406號</span></button>
+                                                    <button class="dropdown-item" type="button"><span
+                                                            class="store">新北永和分校 </span><br><span
+                                                            class="storeSmall">新北市永和區永元路36號</span></button>
+                                                    <button class="dropdown-item" type="button"><span
+                                                            class="store">台中北屯分校 </span><br><span
+                                                            class="storeSmall">台中市北屯區河北路二段180號</span></button>
+                                                    <button class="dropdown-item" type="button"><span
+                                                            class="store">高雄SOGO分校 </span><br><span
+                                                            class="storeSmall">高雄市前鎮區三多三路217號12樓</span></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group pb-10">
+                                            <label for="child_name"></span>孩子的姓名</label>
+                                            <input type="text" class="form-control" id="child_name"
+                                                placeholder="請輸入孩子的姓名" value="" name="child_name">
+                                            <small class="text-center font-semibold text-danger my-3">
+                                            </small>
+                                        </div>
+                                        <div class="form-group pb-10">
+                                            <label for="child_age"></span>孩子的年齡</label>
+                                            <input type="text" class="form-control" id="child_age"
+                                                placeholder="請輸入孩子的年齡" value="" name="child_age">
+                                            <small class="text-center font-semibold text-danger my-3">
+                                            </small>
+                                        </div>
+                                        <div class="form-group pb-10">
+                                            <label for="living_area">居住的區域</label>
+                                            <select id="living_area" class="custom-select" name="living_area">
+                                                <option selected>請選擇縣市</option>
+                                                <option>基隆市</option>
+                                                <option>臺北市</option>
+                                                <option>新北市</option>
+                                                <option>桃園市</option>
+                                                <option>宜蘭縣</option>
+                                                <option>新竹市</option>
+                                                <option>新竹縣</option>
+                                                <option>苗栗縣</option>
+                                                <option>臺中市</option>
+                                                <option>彰化縣</option>
+                                                <option>南投縣</option>
+                                                <option>雲林縣</option>
+                                                <option>嘉義市</option>
+                                                <option>嘉義縣</option>
+                                                <option>臺南市</option>
+                                                <option>高雄市</option>
+                                                <option>花蓮縣</option>
+                                                <option>屏東縣</option>
+                                                <option>臺東縣</option>
+                                                <option>澎湖縣</option>
+                                                <option>金門縣</option>
+                                                <option>連江縣</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group pb-10">
+                                            <label for="inputQuestion">問題類別</label>
+                                            <select class="custom-select" name="question_type">
+                                                <option selected="">選擇問題</option>
+                                                <option>發票及退款 </option>
+                                                <option>商品相關 </option>
+                                                <option>發票及退款 </option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Textarea">其他想詢問內容</label>
+                                            <textarea class="form-control" id="Textarea" rows="5"
+                                                placeholder="輸入詢問的問題"></textarea>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 offset-md-3">
+                                                <a href="contact-message.html" class="btn btn-submit mt-20">送出</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- contact_end -->
+            </section>
+            <!-- contact_end -->
+            <!-- 內容_end -->
+
+            <!-- 頁尾_start -->
+            <footer class="footerContainer">
+                <!-- 頁尾公司資訊_start -->
+                <div class="companyInfoContainer">
+                    <!-- 公司資訊 -->
+                    <div class="companyInfoContent">
+                        <div class="container">
+                            <div class="companyInfoContentInner">
+                                <div class="row">
+                                    <!-- logo -->
+                                    <div class="col-md-3 col-sm-12 footerLogo"><a href="#"><img
+                                                src="images/footer-logo.svg"></a>
+                                    </div>
+                                    <!-- 公司資訊 -->
+                                    <address class="col-md-3 col-sm-12">
+                                        <h4 class="txtSubtitle">聯絡資訊</h4>
+                                        <div class="companyInfo">
+                                            <ul>
+                                                <li>
+                                                    <p class="txtNormal"><span class="material-icons">
+                                                            location_on
+                                                        </span><a href="https://goo.gl/maps/YPcuPoaDUYS6CsEV6"
+                                                            target="_blank">110台北市光復南路495號7樓</a>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><span class="material-icons">
+                                                            call
+                                                        </span><a href="tel:02-8788-1658">02-8788-1658</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><span class="material-icons">
+                                                            email
+                                                        </span><a
+                                                            href="mailto:kksteam360@kkitc.net">kksteam360@kkitc.net</a>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="companySocial">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.facebook.com/KKSTEAM360" target="_blank">
+                                                        <img src="images/icon-fb.svg">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.instagram.com/kksteam360/" target="_blank">
+                                                        <img src="images/icon-instagram.svg">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.youtube.com/channel/UCE03X676xP1-YL5uealCXNg"
+                                                        target="_blank">
+                                                        <img src="images/icon-youtube.svg">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://line.me/R/ti/p/%40891curqi" target="_blank">
+                                                        <img src="images/icon-line.svg">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </address>
+                                    <!-- 快速連結 -->
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="quickLink">
+                                            <ul>
+                                                <h4 class="txtSubtitle"><a href="#" target="_blank">活動公告</a></h4>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">最新消息</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">部落格</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">其他說明</a></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="quickLink">
+                                            <h4 class="txtSubtitle"><a href="#" target="_blank">課程</a></h4>
+                                            <ul>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">實體課程</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">直播課程</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">影音課程</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">OMO課程</a></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="quickLink">
+                                            <h4 class="txtSubtitle"><a href="#" target="_blank">商品</a></h4>
+                                            <ul>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">新品上市</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">限時優惠</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">樂高玩具</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">樂高教育</a></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="quickLink">
+                                            <h4 class="txtSubtitle"><a href="#" target="_blank">其它</a></h4>
+                                            <ul>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">客服諮詢</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">檔案下載</a></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="quickLink">
+                                            <h4 class="txtSubtitle"><a href="#" target="_blabk">講師介紹</h4>
+                                            <h4 class="txtSubtitle"><a href="#" target="_blabk">據點查詢</h4>
+                                            <h4 class="txtSubtitle"><a href="#" target="_blabk">隱私權政策</h4>
+                                            <h4 class="txtSubtitle"><a href="#" target="_blabk">服務條款</h4>
+                                            <h4 class="txtSubtitle"><a href="#" target="_blabk">常見問題</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 頁尾公司資訊_end -->
+                <!-- 版權宣告/政策/網站地圖_start -->
+                <div class="copyrightPolicySitemapContent">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <!-- 版權宣告 -->
+                                <div class="copyright">
+                                    <p>©
+                                        <script>
+                                            document.write(new Date().getFullYear())
+                                        </script>貝登堡 OMO AI 學習平台.
+                                        All Rights Reserved.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 版權宣告/政策/網站地圖_end -->
+
+                <!-- 手機號碼註冊_step_1 -->
+                <!-- <div class="modal fade" id="pop" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="container">
+                            <div class="row">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">註冊</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="d-inline-flex flex-row bd-highlight mb-3">
+                                            <div class="bd-highlight modal-btn">
+                                                <button type="button" class="modal-btn-fb">
+                                                    <div class="modal-icon"><img src="images/icon-white-facebook.svg">
+                                                    </div>
+                                                    <div class="modal-btn-text">Facebook</div>
+                                                </button>
+                                            </div>
+                                            <div class="bd-highlight modal-btn">
+                                                <button type="button" class="modal-btn-line">
+                                                    <div class="modal-icon"><img src="images/icon-white-line.svg">
+                                                    </div>
+                                                    <div class="modal-btn-text">LINE</div>
+                                                </button>
+                                            </div>
+                                            <div class="bd-highlight modal-btn">
+                                                <button type="button" class="modal-btn-google">
+                                                    <div class="modal-icon"><img src="images/icon-google.svg"></div>
+                                                    <div class="modal-btn-text">Google</div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 modal-text">或</div>
+                                        <div class="form-group">
+                                            <label for="InputPhone"><span class="att">*</span> 使用手機號碼註冊</label>
+                                            <input type="text" class="form-control" id="Phone" placeholder="輸入手機號碼">
+                                            <small id="phone"
+                                                class="form-text text-muted prompt-text">請輸入有效行動電話號碼</small>
+                                        </div>
+                                        <div style="background-color: rgb(182, 182, 182); text-align: center;">
+                                            我不是機器人
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-submit">立即加入</button>
+                                    </div>
+                                    <div class="agree-privacy">
+                                        點擊「註冊」即表示你同意我們的<a href="#" target="_blank">使用者條款</a>及<a href="#"
+                                            target="_blank">隱私權政策</a>
+                                    </div>
+                                    <div class="register-att">已經有帳號？<a href="#" target="_blank">登入</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </footer>
+            <!-- 頁尾_end -->
+
+            <!-- 常駐項_start -->
+            <!-- <aside class="floatMenuContainer">
+                <ul>
+                    <li class="freeClass">
+                        <a href="#" target="_blank">
+                            <span class="freeClassTitle">免費</span>
+                            <span class="freeClassText">領取課程</span>
+                        </a>
+                    </li>
+                    <li class="goTop">
+                        <a href="javascript:void(0);">
+                            <img class="ArrowTop" src="images/icon-top.svg">
+                        </a>
+                    </li>
+                </ul>
+            </aside> -->
+            <!-- 常駐項_end -->
+        </main>
+    </div>
+    <!-- (Bootstrap) Latest compiled and minified JavaScript -->
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+        integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+        integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+        crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        $('body').bootstrapMaterialDesign();
+    </script>
+    <!-- owl_carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- 自定義js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

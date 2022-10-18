@@ -1,0 +1,344 @@
+html,
+body {
+  background-color: #dbdbdb;
+}
+
+* {
+  font-family: "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+  word-break: normal;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* a {
+  text-decoration: none !important;
+  outline: none !important;
+  word-break: break-all;
+}
+
+* ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+* img {
+  max-width: 100%;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+* p {
+  word-break: break-all;
+  line-height: 1.6;
+  margin-bottom: unset !important;
+}
+
+.txtContent ul {
+  margin-bottom: 12px;
+}
+
+.txtContent ul li {
+  list-style: circle;
+  margin-bottom: 6px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr {
+  margin: 0px;
+  font-size: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+a,
+button {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a:hover,
+button:hover {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  outline: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-control {
+  display: inline-block;
+  /* padding: 3px 10px 3px 10px; */
+  box-shadow: none;
+  border: #aaa solid 1px;
+}
+
+.form-control-file {
+  padding: 3px 10px 5px 10px;
+}
+
+.custom-control {
+  position: relative;
+  z-index: 1;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
+  -webkit-print-color-adjust: exact;
+}
+
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.custom-control-input {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 1rem;
+  height: 1.25rem;
+  opacity: 0;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #34ce57;
+  background-color: #34ce57;
+}
+
+.custom-control {
+  display: inline-block;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  background: #fff;
+}
+
+select.form-control:not([size]):not([multiple]),
+select.custom-file-control:not([size]):not([multiple]) {
+  height: auto;
+  line-height: 2;
+}
+
+* .ckeditor_container ul {
+  list-style: disc;
+}
+
+form {
+  margin-bottom: 0px;
+}
+
+div {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/*GOOGLE ICON*/
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* padding-right: 5px; */
+  transform: translateY(5px);
+}
+
+.material-icons-outlined {
+  padding-right: 5px;
+  transform: translateY(5px);
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-14 {
+  font-size: 14px;
+  transform: translateY(3px);
+}
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/*BUTTON*/
+.btn-finish {
+  z-index: 1;
+  position: relative;
+  color: #fff;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: #28a745;
+  border-radius: 3px;
+}
+
+.btn-finish::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 3px;
+  background-color: #008c55;
+  transform-origin: center right;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-finish:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-finish:hover::before {
+  transform-origin: center left;
+  transform: scaleX(1);
+}
+
+.btn-warning {
+  z-index: 1;
+  position: relative;
+  color: #fff;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: #45b8ac;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+}
+
+.btn-warning::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: #008c55;
+  transform-origin: center;
+  transform: translate3d(-50%, -50%, 0) scale3d(0, 0, 0);
+  transition: transform 0.45s ease-in-out;
+}
+
+.btn-warning:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #45b8ac;
+}
+
+.btn-warning:hover::before {
+  transform: translate3d(50%, 50%, 0) scale3d(15, 15, 15);
+}
+
+.btn-warning:not(:disabled):not(.disabled):active {
+  color: #fff;
+  box-shadow: unset;
+}
+
+.btn-warning:focus {
+  color: #fff;
+  background-color: #45b8ac;
+  border-color: unset;
+  box-shadow: unset;
+}
+
+.btn-warning:not(:disabled):not(.disabled):active:focus {
+  box-shadow: unset;
+}
+
+button:focus {
+  outline: 0px auto -webkit-focus-ring-color;
+}
+
+.btn-secondary {
+  z-index: 1;
+  position: relative;
+  font-size: 15px;
+  color: #fff;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: #303952;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+}
+
+.btn-secondary::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: #1a1f2c;
+  transform-origin: center;
+  transform: translate3d(-50%, -50%, 0) scale3d(0, 0, 0);
+  transition: transform 0.45s ease-in-out;
+}
+
+.btn-secondary:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-secondary:hover::before {
+  transform: translate3d(-50%, -50%, 0) scale3d(15, 15, 15);
+}
+
+.btn-back {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #575757;
+  background-color: #008c55;
+}
+
+.dropdown-divider {
+  margin: 0.3rem 0;
+}

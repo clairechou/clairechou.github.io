@@ -1,0 +1,202 @@
+* {
+    font-family: "Noto Sans TC", "Helvetica Neue", "Microsoft JhengHei", Arial, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* a {
+    text-decoration: none !important;
+    outline: none !important;
+    word-break: break-all;
+}
+
+* ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+* img {
+    max-width: 100%;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+* p {
+    word-break: break-all;
+    line-height: 1.6;
+    margin-bottom:unset;
+}
+
+body {
+    /* background-color:#f3f3f3; */
+    padding: 0px !important;
+}
+
+.txtContent ul{
+    margin-bottom: 12px;
+}
+
+.txtContent ul li{
+    list-style: circle;
+    margin-bottom: 6px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr {
+    margin: 0px;
+    font-size: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+
+a,
+button {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a:hover,
+button:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+textarea {
+    resize: none;
+}
+
+/* form_start */
+.bmd-form-group label{
+    font-size: unset;
+}
+
+.bmd-form-group .bmd-label-static{
+    font-size: 16px;
+    color: #333;
+    top: 5%;
+}
+
+ .form-control {
+    background: #fff;
+    display: inline-block;
+    box-shadow: none;
+    /* font-size: 15px; */
+    color: #828282;
+    border-radius: 3px;
+    border: 1px solid #C0C0C0;
+    height: unset;
+    padding-left: 10px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background: #fff;
+}
+
+
+.form-control:read-only,
+.custom-file-control:read-only {
+    /* background: #fff; */
+}
+
+.custom-select:focus{
+    border-color: #C0C0C0;
+    box-shadow: none;
+}
+
+.custom-select{
+    font-size: 15px;
+    color: #333;
+    border-radius: 3px;
+    border: 1px solid #C0C0C0;
+    height: unset;
+    padding: 5px 10px 5px 10px;
+}
+
+/* form_end */
+
+select.form-control:not([size]):not([multiple]),
+select.custom-file-control:not([size]):not([multiple]) {
+    height: auto;
+    line-height: 2;
+    color: #A1A1A1;
+}
+
+* .ckeditor_container ul {
+    list-style: disc;
+}
+
+form {
+    margin-bottom: 0px;
+}
+
+div {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+
+/* material_icons Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(54, 54, 54, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+@media only screen and (min-width: 1280px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) {
+    .form-row>[class*=col-]{
+    padding-bottom: 5px;
+}
+}
+
+@media only screen and (max-width: 576px) {}
+
+@media only screen and (max-width: 440px) {}
+
+@media only screen and (max-width: 420px) {}
+
+@media only screen and (max-width: 320px) {
+    .bmd-form-group .bmd-label-static {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+}

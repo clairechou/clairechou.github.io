@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>線上學習平台</title>
+    <!-- 頁簽顯示LOGO -->
+    <link rel="shortcut icon" href="images/ico-logo.ico">
+    <!-- (Bootstrap) Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- jQuery Core 3.1.0 -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- material-icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- 自定義Css_start-->
+    <!-- 定義全站html標籤、網站字體或是取消套件預設 -->
+    <link rel="stylesheet" href="css/global.css">
+    <!-- 定義全站中常駐項目 -->
+    <link rel="stylesheet" href="css/layout.css">
+    <!-- 首頁專用Css -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- 內頁專用Css -->
+    <link rel="stylesheet" href="css/page.css">
+    <!-- 預留可自定義Css -->
+
+</head>
+
+<body>
+    <div class="container-fluid bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay indexContainer">
+        <!-- 手機選單_start -->
+        <header class="bmd-layout-header mbHeadContainer animate">
+            <div class="bg-faded">
+                <div class="mbHeadContainerInner">
+                    <div class="mbMenuBtn">
+                        <button class="navbar-toggler" type="button" data-toggle="drawer" data-target="#dw-s2">
+                            <span class="mbMenuBar"></span>
+                        </button>
+                    </div>
+                    <div class="logo mbLogo">
+                        <a href="index.html"><img src="images/logo.svg" alt="OMO AI學習平台"></a>
+                    </div>
+                    <!-- 登入/註冊/購物車/搜尋 -->
+                    <div class="topInfo">
+                        <ul>
+                            <li><a href="#" class="icon shopping-cart"><img src="images/icon-shopping-cart.svg"><span
+                                        class="shopping-cart-count">2</span></a>
+                            </li>
+                            <li><a href="#" class="icon" data-toggle="modal" data-target="#pop"><img
+                                        src="images/icon-account.svg"></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="images/icon-language.svg">
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">繁體中文</a>
+                                    <a class="dropdown-item" href="#">简体中文</a>
+                                    <a class="dropdown-item" href="#">English</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="dw-s2" class="bmd-layout-drawer bg-faded mbMenu">
+            <div id="leftMenu">
+                <div class="mbClose">
+                    <button type="button" class="mbCloseBtn"><span class="material-icons">close</span></button>
+                </div>
+                <ul class="nav sb-menu nav-list"></ul>
+            </div>
+        </div>
+        <!-- 手機選單_end -->
+        <main class="bmd-layout-content mainContainer">
+            <!-- 主選單_start -->
+            <header class="nopadding">
+                <div class="menuContainer">
+                    <div class="menuContainerInner">
+                        <nav class="menuBlock">
+                            <!-- logo -->
+                            <div class="logo pcLogo">
+                                <h1>
+                                    <a href="index.html"><img src="images/logo.svg" alt="OMO AI學習平台"></a>
+                                </h1>
+                            </div>
+                            <!-- nav_bar -->
+                            <div class="navBar">
+                                <div class="navInner">
+                                    <ul id="mainMenu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">活動公告</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="#">最新消息</a></li>
+                                                <li><a href="#">部落格</a></li>
+                                                <li><a href="#">其他說明</a></li>
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#">講師介紹</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">活動介紹</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="#">比賽</a></li>
+                                                <li><a href="#">檢定</a></li>
+                                                <li><a href="#">活動</a></li>
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">課程</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="video-course.html">影音課程</a></li>
+                                                <li><a href="entity-course.html">實體課程</a></li>
+                                                <li><a href="live-course.html">直播課程</a></li>
+                                                <!-- <li><a href="#">ＯＭＯ課程</a></li> -->
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">商品</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="#">新品上市</a></li>
+                                                <li><a href="#">限時優惠</a></li>
+                                                <li><a href="#">樂高玩具</a></li>
+                                                <li><a href="#">樂高教育</a></li>
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#">據點查詢</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#">其它</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 登入/註冊/購物車/搜尋 -->
+                            <div class="topInfo">
+                                <ul>
+                                    <li><a href="#" class="icon shopping-cart"><img
+                                                src="images/icon-shopping-cart.svg"><span
+                                                class="shopping-cart-count">2</span></a>
+                                    </li>
+                                    <li><a href="#" class="icon" data-toggle="modal" data-target="#pop"><img
+                                                src="images/icon-account.svg"></a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="images/icon-language.svg">
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">繁體中文</a>
+                                            <a class="dropdown-item" href="#">简体中文</a>
+                                            <a class="dropdown-item" href="#">English</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- 主選單_end -->
+
+            <!-- 內容_start -->
+            <section class="pageContent">
+                <!-- breadcrumb_start -->
+                <div class="breadcrumbs-wrapper">
+                    <div class="container">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                                <li class="breadcrumb-item"><a href="#">會員專區</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">課程紀錄</li>
+                            </ol>
+                        </nav>
+                        <div class="pageTitle">課程紀錄</div>
+                    </div>
+                </div>
+                <!-- breadcrumb_end -->
+
+                <!-- member_course_record_start -->
+                <div class="CoursePtContainer">
+                    <div class="container">
+                        <div class="row">
+                            <!-- member_left_web_start -->
+                            <div class="col-md-3 d-none d-lg-block d-md-block">
+                                <ul class="list-group left-list">
+                                    <li class="list-group-item"><a href="#">會員資料</a></li>
+                                    <li class="list-group-item"><a href="#">訂單記錄</a></li>
+                                    <!-- <li class="list-group-item"><a href="#">關係學員</a></li> -->
+                                    <li class="list-group-item active"><a href="#">課程記錄</a></li>
+                                </ul>
+                            </div>
+                            <!-- member_left_web_end -->
+
+                            <!-- member_left_mobile_start -->
+                            <div class="col-sm-12 d-sm-block d-md-none">
+                                <ul class="left-list">
+                                    <li class="left-list-item"><a href="#">會員資料</a></li>
+                                    <li class="left-list-item"><a href="#">訂單記錄</a></li>
+                                    <!-- <li class="left-list-item"><a href="#">關係學員</a></li> -->
+                                    <li class="left-list-item active"><a href="#">課程記錄</a></li>
+                                </ul>
+                            </div>
+                            <!-- member_left_mobile_end -->
+
+                            <!-- course_record_right_start -->
+                            <div class="col-md-9 col-sm-12">
+                                <div class="CourseSearchClass">
+                                    <form class="form-row">
+                                        <div class="col-md-3 col-sm-12">
+                                            <span class="bmd-form-group is-filled">
+                                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                    <option selected>選擇課程</option>
+                                                    <option value="1">實體課程</option>
+                                                    <option value="2">影音課程</option>
+                                                    <option value="3">直播課程</option>
+                                                    <option value="4">OMO課程</option>
+                                                </select>
+                                            </span>
+                                        </div>
+                                        <div class="btn btn-search mb-10">
+                                            <a href="#">搜尋</a>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <!-- course_item_start -->
+                                        <div class="item">
+                                            <div class="indexPtItem">
+                                                <div class="ptImg">
+                                                    <a href="#"><img src="images/640X360.png"></a>
+                                                </div>
+                                                <div class="ptDesc">
+                                                    <div class="course-classroom-tag d-inline-block">
+                                                        實體課程
+                                                    </div>
+                                                    <div class="ptDescTitle"><a
+                                                            href="#">的果時教畫的想張一國日精只處話覺賣果時教畫的想張果時教畫的想張</a>
+                                                    </div>
+                                                    <div class="ptDescDate">
+                                                        <span class="d-inline-block">
+                                                            上課日期
+                                                        </span>
+                                                        <span>2021-02-01</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- course_item_end -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <!-- course_item_start -->
+                                        <div class="item">
+                                            <div class="indexPtItem">
+                                                <div class="ptImg">
+                                                    <a href="#"><img src="images/640X360.png"></a>
+                                                </div>
+                                                <div class="ptDesc">
+                                                    <div class="course-classroom-tag d-inline-block">
+                                                        實體課程
+                                                    </div>
+                                                    <div class="ptDescTitle"><a
+                                                            href="#">的果時教畫的想張一國日精只處話覺賣果時教畫的想張果時教畫的想張</a>
+                                                    </div>
+                                                    <div class="ptDescDate">
+                                                        <span class="d-inline-block">
+                                                            上課日期
+                                                        </span>
+                                                        <span>2021-03-01~2021-03-05</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- course_item_end -->
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <!-- course_item_start -->
+                                        <div class="item">
+                                            <div class="indexPtItem">
+                                                <div class="ptImg">
+                                                    <a href="#"><img src="images/640X360.png"></a>
+                                                </div>
+                                                <div class="ptDesc">
+                                                    <div class="course-video-tag d-inline-block">
+                                                        影音課程
+                                                    </div>
+                                                    <div class="ptDescTitle"><a
+                                                            href="#">的果時教畫的想張一國日精只處話覺賣果時教畫的想張果時教畫的想張</a>
+                                                    </div>
+                                                    <div class="ptDescDate">
+                                                        <span class="d-inline-block">
+                                                            觀看期限
+                                                        </span>
+                                                        <span>2021-03-10~2022-03-10</span>
+                                                    </div>
+                                                    <div class="course-progress">
+                                                        <span class="d-inline-block">
+                                                            上課進度
+                                                        </span>
+                                                        <span>30%</span>
+                                                        <div class="course-progress-bar">
+                                                            <div class="progress" style="height: 10px;">
+                                                                <div class="progress-bar" role="progressbar"
+                                                                    style="width: 30%;" aria-valuenow="30"
+                                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- course_item_end -->
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <!-- course_item_start -->
+                                        <div class="item">
+                                            <div class="indexPtItem">
+                                                <div class="ptImg">
+                                                    <a href="#"><img src="images/640X360.png"></a>
+                                                </div>
+                                                <div class="ptDesc">
+                                                    <div class="course-live-tag d-inline-block">
+                                                        直播課程
+                                                    </div>
+                                                    <div class="ptDescTitle"><a
+                                                            href="#">的果時教畫的想張一國日精只處話覺賣果時教畫的想張果時教畫的想張</a>
+                                                    </div>
+                                                    <div class="ptDescDate">
+                                                        <span class="d-inline-block">
+                                                            上課日期
+                                                        </span>
+                                                        <span>2021-03-01~2021-03-05</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- course_item_end -->
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <!-- course_item_start -->
+                                        <div class="item">
+                                            <div class="indexPtItem">
+                                                <div class="ptImg">
+                                                    <a href="#"><img src="images/640X360.png"></a>
+                                                </div>
+                                                <div class="ptDesc">
+                                                    <div class="course-omo-tag d-inline-block">
+                                                        OMO課程
+                                                    </div>
+                                                    <div class="ptDescTitle"><a
+                                                            href="#">的果時教畫的想張一國日精只處話覺賣果時教畫的想張果時教畫的想張</a>
+                                                    </div>
+                                                    <div class="ptDescDate">
+                                                        <span class="d-inline-block">
+                                                            上課日期
+                                                        </span>
+                                                        <span>2021-05-10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- course_item_end -->
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <!-- course_item_start -->
+                                        <div class="item">
+                                            <div class="indexPtItem">
+                                                <div class="ptImg">
+                                                    <a href="#"><img src="images/640X360.png"></a>
+                                                </div>
+                                                <div class="ptDesc">
+                                                    <div class="course-video-tag d-inline-block">
+                                                        影音課程
+                                                    </div>
+                                                    <div class="ptDescTitle"><a
+                                                            href="#">的果時教畫的想張一國日精只處話覺賣果時教畫的想張果時教畫的想張</a>
+                                                    </div>
+                                                    <div class="ptDescDate">
+                                                        <span class="d-inline-block">
+                                                            觀看期限
+                                                        </span>
+                                                        <span>2021-05-20~2022-05-20</span>
+                                                    </div>
+                                                    <div class="course-progress">
+                                                        <span class="d-inline-block">
+                                                            上課進度
+                                                        </span>
+                                                        <span>50%</span>
+                                                        <div class="course-progress-bar">
+                                                            <div class="progress" style="height: 10px;">
+                                                                <div class="progress-bar" role="progressbar"
+                                                                    style="width: 50%;" aria-valuenow="50"
+                                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- course_item_end -->
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <!-- course_item_start -->
+                                        <div class="item">
+                                            <div class="indexPtItem">
+                                                <div class="ptImg">
+                                                    <a href="#"><img src="images/640X360.png"></a>
+                                                </div>
+                                                <div class="ptDesc">
+                                                    <div class="course-live-tag d-inline-block">
+                                                        直播課程
+                                                    </div>
+                                                    <div class="ptDescTitle"><a
+                                                            href="#">的果時教畫的想張一國日精只處話覺賣果時教畫的想張果時教畫的想張</a>
+                                                    </div>
+                                                    <div class="ptDescDate">
+                                                        <span class="d-inline-block">
+                                                            上課日期
+                                                        </span>
+                                                        <span>2021-03-01~2021-03-05</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- course_item_end -->
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <!-- course_item_start -->
+                                        <div class="item">
+                                            <div class="indexPtItem">
+                                                <div class="ptImg">
+                                                    <a href="#"><img src="images/640X360.png"></a>
+                                                </div>
+                                                <div class="ptDesc">
+                                                    <div class="course-omo-tag d-inline-block">
+                                                        OMO課程
+                                                    </div>
+                                                    <div class="ptDescTitle"><a
+                                                            href="#">的果時教畫的想張一國日精只處話覺賣果時教畫的想張果時教畫的想張</a>
+                                                    </div>
+                                                    <div class="ptDescDate">
+                                                        <span class="d-inline-block">
+                                                            上課日期
+                                                        </span>
+                                                        <span>2021-05-10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- course_item_end -->
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <!-- course_item_start -->
+                                        <div class="item">
+                                            <div class="indexPtItem">
+                                                <div class="ptImg">
+                                                    <a href="#"><img src="images/640X360.png"></a>
+                                                </div>
+                                                <div class="ptDesc">
+                                                    <div class="course-video-tag d-inline-block">
+                                                        影音課程
+                                                    </div>
+                                                    <div class="ptDescTitle"><a
+                                                            href="#">的果時教畫的想張一國日精只處話覺賣果時教畫的想張果時教畫的想張</a>
+                                                    </div>
+                                                    <div class="ptDescDate">
+                                                        <span class="d-inline-block">
+                                                            觀看期限
+                                                        </span>
+                                                        <span>2021-03-10~2022-03-10</span>
+                                                    </div>
+                                                    <div class="course-progress">
+                                                        <span class="d-inline-block">
+                                                            上課進度
+                                                        </span>
+                                                        <span>30%</span>
+                                                        <div class="course-progress-bar">
+                                                            <div class="progress" style="height: 10px;">
+                                                                <div class="progress-bar" role="progressbar"
+                                                                    style="width: 30%;" aria-valuenow="30"
+                                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- course_item_end -->
+                                    </div>
+
+                                    <div class="col">
+                                        <nav aria-label="Page navigation example">
+                                            <ul class="pagination">
+                                                <li class="page-item disabled">
+                                                    <span class="page-link">&lsaquo;</span>
+                                                </li>
+                                                <li class="page-item active"><button type="button"
+                                                        class="page-link">1</button>
+                                                </li>
+                                                <li class="page-item"><button type="button" class="page-link">2</button>
+                                                </li>
+                                                <li class="page-item"><button type="button" class="page-link">3</button>
+                                                </li>
+                                                <li class="page-item">
+                                                    <span class="page-link">&rsaquo;</span>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+
+                                    <!-- course_record_right_end -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- member_course_record_end -->
+                <!-- 內容_end -->
+            </section>
+
+            <!-- 頁尾_start -->
+            <footer class="footerContainer">
+                <!-- 頁尾公司資訊_start -->
+                <div class="companyInfoContainer">
+                    <!-- 公司資訊 -->
+                    <div class="companyInfoContent">
+                        <div class="container">
+                            <div class="companyInfoContentInner">
+                                <div class="row">
+                                    <!-- logo -->
+                                    <div class="col-md-3 col-sm-12 footerLogo"><a href="#"><img
+                                                src="images/footer-logo.svg"></a>
+                                    </div>
+                                    <!-- 公司資訊 -->
+                                    <address class="col-md-3 col-sm-12">
+                                        <h4 class="txtSubtitle">聯絡資訊</h4>
+                                        <div class="companyInfo">
+                                            <ul>
+                                                <li>
+                                                    <p class="txtNormal"><span class="material-icons">
+                                                            location_on
+                                                        </span><a href="https://goo.gl/maps/YPcuPoaDUYS6CsEV6"
+                                                            target="_blank">110台北市光復南路495號7樓</a>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><span class="material-icons">
+                                                            call
+                                                        </span><a href="tel:02-8788-1658">02-8788-1658</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><span class="material-icons">
+                                                            email
+                                                        </span><a
+                                                            href="mailto:kksteam360@kkitc.net">kksteam360@kkitc.net</a>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="companySocial">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.facebook.com/KKSTEAM360" target="_blank">
+                                                        <img src="images/icon-fb.svg">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.instagram.com/kksteam360/" target="_blank">
+                                                        <img src="images/icon-instagram.svg">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.youtube.com/channel/UCE03X676xP1-YL5uealCXNg"
+                                                        target="_blank">
+                                                        <img src="images/icon-youtube.svg">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://line.me/R/ti/p/%40891curqi" target="_blank">
+                                                        <img src="images/icon-line.svg">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </address>
+                                    <!-- 快速連結 -->
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="quickLink">
+                                            <ul>
+                                                <h4 class="txtSubtitle"><a href="#" target="_blank">活動公告</a></h4>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">最新消息</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">部落格</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">其他說明</a></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="quickLink">
+                                            <h4 class="txtSubtitle"><a href="#" target="_blank">課程</a></h4>
+                                            <ul>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">實體課程</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">直播課程</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">影音課程</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">OMO課程</a></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="quickLink">
+                                            <h4 class="txtSubtitle"><a href="#" target="_blank">商品</a></h4>
+                                            <ul>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">新品上市</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">限時優惠</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">樂高玩具</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">樂高教育</a></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="quickLink">
+                                            <h4 class="txtSubtitle"><a href="#" target="_blank">其它</a></h4>
+                                            <ul>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">客服諮詢</a></p>
+                                                </li>
+                                                <li>
+                                                    <p class="txtNormal"><a href="#" target="_blank">檔案下載</a></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="quickLink">
+                                            <h4 class="txtSubtitle"><a href="#" target="_blabk">講師介紹</h4>
+                                            <h4 class="txtSubtitle"><a href="#" target="_blabk">據點查詢</h4>
+                                            <h4 class="txtSubtitle"><a href="#" target="_blabk">隱私權政策</h4>
+                                            <h4 class="txtSubtitle"><a href="#" target="_blabk">服務條款</h4>
+                                            <h4 class="txtSubtitle"><a href="#" target="_blabk">常見問題</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 頁尾公司資訊_end -->
+                <!-- 版權宣告/政策/網站地圖_start -->
+                <div class="copyrightPolicySitemapContent">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <!-- 版權宣告 -->
+                                <div class="copyright">
+                                    <p>©
+                                        <script>
+                                            document.write(new Date().getFullYear())
+                                        </script>貝登堡 OMO AI 學習平台.
+                                        All Rights Reserved.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 版權宣告/政策/網站地圖_end -->
+
+                <!-- 手機號碼註冊_step_1 -->
+                <div class="modal fade" id="pop" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="container">
+                            <div class="row">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">註冊</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="d-inline-flex flex-row bd-highlight mb-3">
+                                            <div class="bd-highlight modal-btn">
+                                                <button type="button" class="modal-btn-fb">
+                                                    <div class="modal-icon"><img src="images/icon-white-facebook.svg">
+                                                    </div>
+                                                    <div class="modal-btn-text">Facebook</div>
+                                                </button>
+                                            </div>
+                                            <div class="bd-highlight modal-btn">
+                                                <button type="button" class="modal-btn-line">
+                                                    <div class="modal-icon"><img src="images/icon-white-line.svg">
+                                                    </div>
+                                                    <div class="modal-btn-text">LINE</div>
+                                                </button>
+                                            </div>
+                                            <div class="bd-highlight modal-btn">
+                                                <button type="button" class="modal-btn-google">
+                                                    <div class="modal-icon"><img src="images/icon-google.svg"></div>
+                                                    <div class="modal-btn-text">Google</div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 modal-text">或</div>
+                                        <div class="form-group">
+                                            <label for="InputPhone"><span class="att">*</span> 使用手機號碼註冊</label>
+                                            <input type="text" class="form-control" id="Phone" placeholder="輸入手機號碼">
+                                            <small id="phone" class="form-text text-muted">請輸入有效行動電話號碼</small>
+                                        </div>
+                                        <div style="background-color: rgb(182, 182, 182); text-align: center;">
+                                            我不是機器人
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-submit">立即加入</button>
+                                    </div>
+                                    <div class="agree-privacy">
+                                        點擊「註冊」即表示你同意我們的<a href="#" target="_blank">使用者條款</a>及<a href="#"
+                                            target="_blank">隱私權政策</a>
+                                    </div>
+                                    <div class="register-att">已經有帳號？<a href="#" target="_blank">登入</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- 頁尾_end -->
+
+            <!-- 常駐項_start -->
+            <aside class="floatMenuContainer">
+                <ul>
+                    <li class="freeClass">
+                        <a href="contact.html" target="_blank">
+                            <span class="freeClassTitle">免費</span>
+                            <span class="freeClassText">領取課程</span>
+                        </a>
+                    </li>
+                    <li class="goTop">
+                        <a href="javascript:void(0);">
+                            <img class="ArrowTop" src="images/icon-top.svg">
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <!-- 常駐項_end -->
+        </main>
+    </div>
+    <!-- (Bootstrap) Latest compiled and minified JavaScript -->
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+        integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+        integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+        crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        $('body').bootstrapMaterialDesign();
+    </script>
+    <!-- owl_carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- 自定義js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

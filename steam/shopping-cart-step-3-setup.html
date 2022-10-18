@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>線上學習平台</title>
+    <!-- 頁簽顯示LOGO -->
+    <link rel="shortcut icon" href="images/ico-logo.ico">
+    <!-- (Bootstrap) Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- jQuery Core 3.1.0 -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- material-icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- 自定義Css_start-->
+    <!-- 定義全站html標籤、網站字體或是取消套件預設 -->
+    <link rel="stylesheet" href="css/global.css">
+    <!-- 定義全站中常駐項目 -->
+    <link rel="stylesheet" href="css/layout.css">
+    <!-- 首頁專用Css -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- 內頁專用Css -->
+    <link rel="stylesheet" href="css/page.css">
+    <!-- 預留可自定義Css -->
+
+</head>
+
+<body>
+    <div class="container-fluid bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay indexContainer">
+        <!-- 手機選單_start -->
+        <header class="bmd-layout-header mbHeadContainer animate">
+            <div class="bg-faded">
+                <div class="mbHeadContainerInner">
+                    <div class="mbMenuBtn">
+                        <button class="navbar-toggler" type="button" data-toggle="drawer" data-target="#dw-s2">
+                            <span class="mbMenuBar"></span>
+                        </button>
+                    </div>
+                    <div class="logo mbLogo">
+                        <a href="index.html"><img src="images/logo.svg" alt="OMO AI學習平台"></a>
+                    </div>
+                    <!-- 登入/註冊/購物車/搜尋 -->
+                    <div class="topInfo">
+                        <ul>
+                            <li><a href="#" class="icon shopping-cart"><img src="images/icon-shopping-cart.svg"><span
+                                        class="shopping-cart-count">2</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="images/icon-account.svg">
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">會員姓名Jonathan</a>
+                                    <a class="dropdown-item" href="#">訂單記錄</a>
+                                    <a class="dropdown-item" href="#">會員專區</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><span class="material-icons icon">
+                                            logout
+                                        </span>登出</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="images/icon-language.svg">
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">繁體中文</a>
+                                    <a class="dropdown-item" href="#">简体中文</a>
+                                    <a class="dropdown-item" href="#">English</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="dw-s2" class="bmd-layout-drawer bg-faded mbMenu">
+            <div id="leftMenu">
+                <div class="mbClose">
+                    <button type="button" class="mbCloseBtn"><span class="material-icons">close</span></button>
+                </div>
+                <ul class="nav sb-menu nav-list"></ul>
+            </div>
+        </div>
+        <!-- 手機選單_end -->
+        <main class="bmd-layout-content mainContainer">
+            <!-- 主選單_start -->
+            <header class="nopadding">
+                <div class="menuContainer">
+                    <div class="menuContainerInner">
+                        <nav class="menuBlock">
+                            <!-- logo -->
+                            <div class="logo pcLogo">
+                                <h1>
+                                    <a href="index.html"><img src="images/logo.svg" alt="OMO AI學習平台"></a>
+                                </h1>
+                            </div>
+                            <!-- nav_bar -->
+                            <div class="navBar">
+                                <div class="navInner">
+                                    <ul id="mainMenu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">活動公告</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="#">最新消息</a></li>
+                                                <li><a href="#">部落格</a></li>
+                                                <li><a href="#">其他說明</a></li>
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#">講師介紹</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">活動介紹</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="#">比賽</a></li>
+                                                <li><a href="#">檢定</a></li>
+                                                <li><a href="#">活動</a></li>
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">課程</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="video-course.html">影音課程</a></li>
+                                                <li><a href="entity-course.html">實體課程</a></li>
+                                                <li><a href="live-course.html">直播課程</a></li>
+                                                <!-- <li><a href="#">ＯＭＯ課程</a></li> -->
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#" class="arrowDown">商品</a>
+                                            <ul class="dropdownMenu">
+                                                <li><a href="#">新品上市</a></li>
+                                                <li><a href="#">限時優惠</a></li>
+                                                <li><a href="#">樂高玩具</a></li>
+                                                <li><a href="#">樂高教育</a></li>
+                                            </ul>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#">據點查詢</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="#">其它</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 登入/註冊/購物車/搜尋 -->
+                            <div class="topInfo">
+                                <ul>
+                                    <li><a href="#" class="icon shopping-cart"><img
+                                                src="images/icon-shopping-cart.svg"><span
+                                                class="shopping-cart-count">2</span></a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="images/icon-account.svg">
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">會員姓名Jonathan</a>
+                                            <a class="dropdown-item" href="#">訂單記錄</a>
+                                            <a class="dropdown-item" href="#">會員專區</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#"><span class="material-icons icon">
+                                                    logout
+                                                </span>登出</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="images/icon-language.svg">
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">繁體中文</a>
+                                            <a class="dropdown-item" href="#">简体中文</a>
+                                            <a class="dropdown-item" href="#">English</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- 主選單_end -->
+
+            <!-- 內容_start -->
+            <section class="pageContent">
+                <div class="shopping-cart-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <div class="check-nav">
+                                    <div class="step"><span class="number active">1</span><span
+                                            class="text-active">購物明細</span>
+                                    </div>
+                                    <div class="step"><span class="number active">2</span><span
+                                            class="text-active">付款方式</span></div>
+                                    <div class="step"><span class="number active">3</span><span
+                                            class="text-active">結帳完成</span></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="cart-content">
+                                    <div class="shopping-checkout shadow-sm">
+                                        <p>已付款成功，已寄通知信到您的電子信箱，<br />
+                                            謝謝您的支持！</p>
+                                    </div>
+                                    <div class="cartTitle">訂單資訊</div>
+                                    <div class="shadow-sm">
+                                        <div class="cart">
+                                            <div class="order-info">
+                                                <div class="order-list-text">
+                                                    <span>訂單編號：1612335270895VVJc</span>
+                                                    <span>推薦代碼：A0001</span>
+                                                </div>
+                                                <div class="order-list-text">
+                                                    <span>結帳日期：2021-02-10</span>
+                                                </div>
+                                            </div>
+                                            <!-- 購買課程 -->
+                                            <table class="cart table table-hover table-condensed">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width:30%">課程名稱</th>
+                                                        <th style="width:10%">類型</th>
+                                                        <th style="width:8%">名額</th>
+                                                        <th style="width:10%">金額</th>
+                                                        <th style="width:12%">使用點數</th>
+                                                        <th style="width:15%">相關設定</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td data-th="課程名稱">
+                                                            <div class="row">
+                                                                <div class="col-sm-2 hidden-xs"><img
+                                                                        src="images/100x100.png"
+                                                                        class="img-responsive cart-img" />
+                                                                </div>
+                                                                <div class="col-sm-10 prod-desc">
+                                                                    <p>的果時教畫的想張一國日精只處話覺賣果時教畫的想張</p>
+                                                                </div>
+
+                                                            </div>
+                                                        </td>
+                                                        <td data-th="類型" class="type">影音</td>
+                                                        <td data-th="數量" class="cart-quantity">1</td>
+                                                        <td data-th="金額">
+                                                            <span class="cart-price">NT$900</span>
+                                                            <span class="cart-original-price">NT$600</span>
+                                                        </td>
+                                                        <td data-th="點數" class="cart-point"><input type="checkbox"
+                                                                id="exampleCheck1" disabled>
+                                                        </td>
+                                                        <td class="actions" data-th="">
+                                                            <button class="btn-general btn-block" data-toggle="modal"
+                                                                data-target="#SetStudents">＋ 立即設定上課學員</button>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td data-th="課程名稱">
+                                                            <div class="row">
+                                                                <div class="col-sm-2 hidden-xs"><img
+                                                                        src="images/100x100.png"
+                                                                        class="img-responsive cart-img" />
+                                                                </div>
+                                                                <div class="col-sm-10 prod-desc">
+                                                                    <p>的果時教畫的想張一國日精只處話覺賣果時教畫的想張</p>
+                                                                </div>
+
+                                                            </div>
+                                                        </td>
+                                                        <td data-th="類型" class="type">實體</td>
+                                                        <td data-th="數量" class="cart-quantity">3</td>
+                                                        <td data-th="金額">
+                                                            <span class="cart-price">NT$900</span>
+                                                            <span class="cart-original-price">NT$600</span>
+                                                        </td>
+                                                        <td data-th="點數" class="cart-point"><input type="checkbox"
+                                                                id="exampleCheck1" disabled>
+                                                        </td>
+                                                        <td class="actions" data-th="">
+                                                            <p class="student-setup">陳佩玲<br />陳雅玲<br />陳愛玲</p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- 購買課程 -->
+                                            <!-- 加購教材 -->
+                                            <table class="cart table table-hover table-condensed">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width:10%">加購教材</th>
+                                                        <th style="width:8%">數量</th>
+                                                        <th style="width:10%">金額</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td data-th="課程名稱">
+                                                            <div class="row">
+                                                                <div class="col-sm-2 hidden-xs"><img
+                                                                        src="images/100x100.png"
+                                                                        class="img-responsive cart-img" />
+                                                                </div>
+                                                                <div class="col-sm-10 prod-desc">
+                                                                    <p>的果時教畫的想張一國日精只處話覺賣果時教畫的想張</p>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td data-th="數量" class="cart-quantity">1</td>
+                                                        <td data-th="金額">
+                                                            <span class="cart-price">NT$900</span>
+                                                            <span class="cart-original-price">NT$600</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- 加購教材 -->
+                                            <!-- 贈品 -->
+                                            <table class="cart table table-hover table-condensed">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width:5%">贈品</th>
+                                                        <th style="width:8%">數量</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td data-th="贈品">
+                                                            <div class="row">
+                                                                <div class="col-sm-2 hidden-xs"><img
+                                                                        src="images/100x100.png"
+                                                                        class="img-responsive cart-img" />
+                                                                </div>
+                                                                <div class="col-sm-10 prod-desc">
+                                                                    <p>的果時教畫的想張一國日精只處話覺賣果時教畫的想張</p>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td data-th="數量" class="cart-quantity">1</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- 贈品 -->
+                                            <!-- 實付金額 -->
+                                            <table class="cart table-condensed amount-info">
+                                                <tbody>
+                                                    <tr class="text-strong">
+                                                        <td class="actual-price-text">實付金額</td>
+                                                        <td class="actual-price">NT$ 2649</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- 實付金額 -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-12">
+                                <div class="cartTitle">收貨人資訊</div>
+                                <div class="receiving-information d-flex justify-content-center shadow-sm">
+                                    <form class="needs-validation" novalidate="">
+                                        <div class="contactAtt"><span class="att">*</span> 必填欄位</div>
+                                        <div class="form-row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationDefault01"><span class="att">*</span>姓名</label>
+                                                <input type="text" class="form-control" id="validationDefault01"
+                                                    value="輸入真實姓名" required>
+                                                <small id="Name" class="form-text text-muted prompt-text">提示文字：請輸入姓名
+                                                </small>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationDefault02"><span class="att">*</span>電子信箱</label>
+                                                <input type="text" class="form-control" id="validationDefault02"
+                                                    value="輸入電子郵箱" required>
+                                                <small id="Email" class="form-text text-muted prompt-text">提示文字：輸入錯誤
+                                                </small>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationDefault02">電話號碼</label>
+                                                <input type="text" class="form-control" id="validationDefault02"
+                                                    value="輸入電話號碼" required>
+                                                <small id="Phone" class="form-text text-muted prompt-text">提示文字：輸入錯誤
+                                                </small>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationDefault02"><span class="att">*</span>手機號碼</label>
+                                                <input type="text" class="form-control" id="validationDefault02"
+                                                    value="輸入手機號碼" required>
+                                                <small id="Mobile" class="form-text text-muted prompt-text">提示文字：輸入錯誤
+                                                </small>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <label for="validationDefault02"><span class="att">*</span>地 址</label>
+                                                <input type="text" class="form-control" id="validationDefault02"
+                                                    value="輸入地址" required>
+                                                <small id="Address" class="form-text text-muted prompt-text">提示文字：輸入錯誤
+                                                </small>
+                                            </div>
+                                            <div class="col-md-12 mb-3 d-flex justify-content-center">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="invalidCheck" required>
+                                                    <label class="form-check-label receiving-privacy"
+                                                        for="invalidCheck">
+                                                        我已閱讀並已接受 <a href="#" target="_blank">會員權益聲明</a> 與 <a href="#"
+                                                            target="_blank">隱私權條款</a>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="btn-general btn-block mt-20">送出</button>
+                                    </form>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+    </div>
+    </div>
+    </section>
+    <!-- 內容_end -->
+
+    <!-- 頁尾_start -->
+    <footer class="footerContainer">
+        <!-- 頁尾公司資訊_start -->
+        <div class="companyInfoContainer">
+            <!-- 公司資訊 -->
+            <div class="companyInfoContent">
+                <div class="container">
+                    <div class="companyInfoContentInner">
+                        <div class="row">
+                            <!-- logo -->
+                            <div class="col-md-3 col-sm-12 footerLogo"><a href="#"><img
+                                        src="images/footer-logo.svg"></a>
+                            </div>
+                            <!-- 公司資訊 -->
+                            <address class="col-md-3 col-sm-12">
+                                <h4 class="txtSubtitle">聯絡資訊</h4>
+                                <div class="companyInfo">
+                                    <ul>
+                                        <li>
+                                            <p class="txtNormal"><span class="material-icons">
+                                                    location_on
+                                                </span><a href="https://goo.gl/maps/YPcuPoaDUYS6CsEV6"
+                                                    target="_blank">110台北市光復南路495號7樓</a>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><span class="material-icons">
+                                                    call
+                                                </span><a href="tel:02-8788-1658">02-8788-1658</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><span class="material-icons">
+                                                    email
+                                                </span><a href="mailto:kksteam360@kkitc.net">kksteam360@kkitc.net</a>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="companySocial">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/KKSTEAM360" target="_blank">
+                                                <img src="images/icon-fb.svg">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/kksteam360/" target="_blank">
+                                                <img src="images/icon-instagram.svg">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/channel/UCE03X676xP1-YL5uealCXNg"
+                                                target="_blank">
+                                                <img src="images/icon-youtube.svg">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://line.me/R/ti/p/%40891curqi" target="_blank">
+                                                <img src="images/icon-line.svg">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </address>
+                            <!-- 快速連結 -->
+                            <div class="col-md-6 col-sm-12">
+                                <div class="quickLink">
+                                    <ul>
+                                        <h4 class="txtSubtitle"><a href="#" target="_blank">活動公告</a></h4>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">最新消息</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">部落格</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">其他說明</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="quickLink">
+                                    <h4 class="txtSubtitle"><a href="#" target="_blank">課程</a></h4>
+                                    <ul>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">實體課程</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">直播課程</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">影音課程</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">OMO課程</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="quickLink">
+                                    <h4 class="txtSubtitle"><a href="#" target="_blank">商品</a></h4>
+                                    <ul>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">新品上市</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">限時優惠</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">樂高玩具</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">樂高教育</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="quickLink">
+                                    <h4 class="txtSubtitle"><a href="#" target="_blank">其它</a></h4>
+                                    <ul>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">客服諮詢</a></p>
+                                        </li>
+                                        <li>
+                                            <p class="txtNormal"><a href="#" target="_blank">檔案下載</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="quickLink">
+                                    <h4 class="txtSubtitle"><a href="#" target="_blabk">講師介紹</h4>
+                                    <h4 class="txtSubtitle"><a href="#" target="_blabk">據點查詢</h4>
+                                    <h4 class="txtSubtitle"><a href="#" target="_blabk">隱私權政策</h4>
+                                    <h4 class="txtSubtitle"><a href="#" target="_blabk">服務條款</h4>
+                                    <h4 class="txtSubtitle"><a href="#" target="_blabk">常見問題</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 頁尾公司資訊_end -->
+        <!-- 版權宣告/政策/網站地圖_start -->
+        <div class="copyrightPolicySitemapContent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <!-- 版權宣告 -->
+                        <div class="copyright">
+                            <p>©
+                                <script>
+                                    document.write(new Date().getFullYear())
+                                </script>貝登堡 OMO AI 學習平台.
+                                All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 版權宣告/政策/網站地圖_end -->
+
+        <!-- 設定上課會員 -->
+        <div class="modal fade" id="SetStudents" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">設定上課學員</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="set-student-att alert alert-danger" role="alert">提醒：請在上課日前一天務必設定完成</div>
+                        <div class="set-student-text">
+                            <p>修改日期：2021-02-10</p>
+                            <p>修改人員：Mike (或 客服：Tina)</p>
+                            <p>客服人員：Tina</p>
+                            <p>設定名額：<span class="set-student-att">3</span> 人</p>
+                        </div>
+                        <dl class="accordion">
+                            <dt>
+                                <a href="">學員一</a>
+                            </dt>
+                            <dd>
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputEmail4"><span class="att">*</span> 關係</label>
+                                            <input type="relationship" class="form-control" id="inputRelationship"
+                                                placeholder="輸入關係">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputName"><span class="att">*</span> 姓名</label>
+                                            <input type="name" class="form-control" id="inputName" placeholder="輸入姓名">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputBirthday"><span class="att">*</span> 生日</label>
+                                        <select id="inputBirthday" class="form-control">
+                                            <option selected>輸入出生年月日</option>
+                                            <option>出現日曆</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputEmail4"><span class="att">*</span> 學校</label>
+                                            <input type="relationship" class="form-control" id="inputRelationship"
+                                                placeholder="輸入學校/現行服務單位">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputName"><span class="att">*</span> 年級</label>
+                                            <input type="name" class="form-control" id="inputName"
+                                                placeholder="輸入年級/非學生請填無">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">備註</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                            placeholder="有無須照護之特殊狀況"></textarea>
+                                    </div>
+                                </form>
+                            </dd>
+                            <dt>
+                                <a href="">學員二</a>
+                            </dt>
+                            <dd>
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputEmail4"><span class="att">*</span> 關係</label>
+                                            <input type="relationship" class="form-control" id="inputRelationship"
+                                                placeholder="輸入關係">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputName"><span class="att">*</span> 姓名</label>
+                                            <input type="name" class="form-control" id="inputName" placeholder="輸入姓名">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputBirthday"><span class="att">*</span> 生日</label>
+                                        <select id="inputBirthday" class="form-control">
+                                            <option selected>輸入出生年月日</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputEmail4"><span class="att">*</span> 學校</label>
+                                            <input type="relationship" class="form-control" id="inputRelationship"
+                                                placeholder="輸入學校/現行服務單位">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputName"><span class="att">*</span> 年級</label>
+                                            <input type="name" class="form-control" id="inputName"
+                                                placeholder="輸入年級/非學生請填無">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">備註</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                            placeholder="有無須照護之特殊狀況"></textarea>
+                                    </div>
+                                </form>
+                            </dd>
+                            <dt>
+                                <a href="">學員三</a>
+                            </dt>
+                            <dd>
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputEmail4"><span class="att">*</span> 關係</label>
+                                            <input type="relationship" class="form-control" id="inputRelationship"
+                                                placeholder="輸入關係">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputName"><span class="att">*</span> 姓名</label>
+                                            <input type="name" class="form-control" id="inputName" placeholder="輸入姓名">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputBirthday"><span class="att">*</span> 生日</label>
+                                        <select id="inputBirthday" class="form-control">
+                                            <option selected>輸入出生年月日</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputEmail4"><span class="att">*</span> 學校</label>
+                                            <input type="relationship" class="form-control" id="inputRelationship"
+                                                placeholder="輸入學校/現行服務單位">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputName"><span class="att">*</span> 年級</label>
+                                            <input type="name" class="form-control" id="inputName"
+                                                placeholder="輸入年級/非學生請填無">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">備註</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                            placeholder="有無須照護之特殊狀況"></textarea>
+                                    </div>
+                                </form>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-submit">完成</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 設定上課會員 end -->
+    </footer>
+    <!-- 頁尾_end -->
+
+    <!-- 常駐項_start -->
+    <aside class="floatMenuContainer">
+        <ul>
+            <li class="freeClass">
+                <a href="contact.html" target="_blank">
+                    <span class="freeClassTitle">免費</span>
+                    <span class="freeClassText">領取課程</span>
+                </a>
+            </li>
+            <li class="goTop">
+                <a href="javascript:void(0);">
+                    <img class="ArrowTop" src="images/icon-top.svg">
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <!-- 常駐項_end -->
+    </main>
+    </div>
+    <!-- (Bootstrap) Latest compiled and minified JavaScript -->
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+        integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+        integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+        crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        $('body').bootstrapMaterialDesign();
+    </script>
+    <!-- owl_carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- 自定義js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

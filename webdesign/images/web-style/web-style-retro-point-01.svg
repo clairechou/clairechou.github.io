@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <clipPath id="clip-web-style-retro-point-01">
+      <rect width="900" height="600"/>
+    </clipPath>
+  </defs>
+  <g id="web-style-retro-point-01" clip-path="url(#clip-web-style-retro-point-01)">
+    <rect width="900" height="600" fill="#fff"/>
+    <text id="標題在大寫英字使用復古字體_具有印刷質感_保留內文無襯線字體_" data-name="標題在大寫英字使用復古字體，具有印刷質感，保留內文無襯線字體。" transform="translate(480 176)" fill="#4d4d4d" font-size="20" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="23">標題在大寫英字使用復古字體，具有印</tspan><tspan x="0" y="53">刷質感，保留內文無襯線字體。</tspan></text>
+    <text id="以常見暖灰系列_作為復古的底色_並以橘色作為點綴_整體配色具有低彩度的樣式_" data-name="以常見暖灰系列，作為復古的底色，並以橘色作為點綴，整體配色具有低彩度的樣式。" transform="translate(49 176)" fill="#4d4d4d" font-size="20" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="23">以常見暖灰系列，作為復古的底色，並</tspan><tspan x="0" y="53">以橘色作為點綴，整體配色具有低彩度</tspan><tspan x="0" y="83">的樣式。</tspan></text>
+    <text id="_E3E0DD" data-name="#E3E0DD" transform="translate(50 393)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="0">#E3E0DD</tspan></text>
+    <text id="_E68966" data-name="#E68966" transform="translate(234 393)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="0">#E68966</tspan></text>
+    <text id="_4C5057" data-name="#4C5057" transform="translate(142 393)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="0">#4C5057</tspan></text>
+    <rect id="Rectangle_344" data-name="Rectangle 344" width="80" height="80" rx="4" transform="translate(234 289)" fill="#e68966"/>
+    <rect id="Rectangle_345" data-name="Rectangle 345" width="80" height="80" rx="4" transform="translate(142 289)" fill="#4c5057"/>
+    <rect id="Rectangle_346" data-name="Rectangle 346" width="80" height="80" rx="4" transform="translate(50 289)" fill="#e3e0dd"/>
+    <text id="Aa" transform="translate(687 253)" fill="#4d4d4d" font-size="96" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="104">Aa</tspan></text>
+    <text id="A" transform="translate(480 265)" fill="#4d4d4d" font-size="96" font-family="NexaRustSlab-BlackShadow01, 'Nexa Rust Slab Shadow \30 1'" font-weight="800"><tspan x="0" y="91">A</tspan></text>
+    <text id="ABCDEFGHIJKLMNOPQRSTUVWXYZ" transform="translate(687 402)" fill="#4d4d4d" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.05em"><tspan x="0" y="15">ABCDEFGHIJKLMNOPQ</tspan><tspan x="0" y="35">RSTUVWXYZ</tspan></text>
+    <text id="ABCDEFGHIJKLMNOPQRSTUVWXYZ-2" data-name="ABCDEFGHIJKLMNOPQRSTUVWXYZ" transform="translate(480 402)" fill="#4d4d4d" font-size="14" font-family="NexaRustSlab-BlackShadow01, 'Nexa Rust Slab Shadow \30 1'" font-weight="800" letter-spacing="0.05em"><tspan x="0" y="13">ABCDEFGHIJKLM</tspan><tspan x="0" y="33">NOPQRSTUVWXY</tspan><tspan x="0" y="53">Z</tspan></text>
+    <text id="abcdefghijklmnopqrstuvwxyz-3" data-name="abcdefghijklmnopqrstuvwxyz" transform="translate(687 447)" fill="#4d4d4d" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.05em"><tspan x="0" y="15">abcdefghijklmnopqrstu</tspan><tspan x="0" y="35">vwxyz</tspan></text>
+    <text id="_0123456789" data-name="0123456789" transform="translate(687 377)" fill="#4d4d4d" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.05em"><tspan x="0" y="15">0123456789</tspan></text>
+    <text id="_0123456789-2" data-name="0123456789" transform="translate(480 377)" fill="#4d4d4d" font-size="14" font-family="NexaRustSlab-BlackShadow01, 'Nexa Rust Slab Shadow \30 1'" font-weight="800" letter-spacing="0.05em"><tspan x="0" y="13">0123456789</tspan></text>
+    <text id="Typoography_文字" data-name="Typoography 文字" transform="translate(480 136)" fill="#219dff" font-size="24" font-family="NotoSansTC-Medium, Noto Sans TC" font-weight="500"><tspan x="0" y="0">TYPOOGRAPHY 文字</tspan></text>
+    <text id="Color_色彩" data-name="Color 色彩" transform="translate(50 136)" fill="#219dff" font-size="24" font-family="NotoSansTC-Medium, Noto Sans TC" font-weight="500"><tspan x="0" y="0">COLOR 色彩</tspan></text>
+    <line id="Line_67" data-name="Line 67" x2="370" transform="translate(50 146)" fill="none" stroke="#219dff" stroke-width="1"/>
+    <line id="Line_68" data-name="Line 68" x2="370" transform="translate(480 146)" fill="none" stroke="#219dff" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,167 @@
+/* 基本設定_start */
+
+.indexContainer {
+  padding: 0px;
+}
+
+/* 基本設定_end */
+
+/* index_banner_start */
+
+.indexBannerInnerContainer {
+  width: 100%;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #fff;
+  font-size: 14px;
+  margin: 5px;
+  padding: 10px 15px 10px 15px;
+  background: #7b7b7b;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.owl-theme .owl-prev {
+  position: absolute;
+  z-index: 30;
+  left: 5%;
+  top: 50%;
+}
+
+.owl-theme .owl-next {
+  position: absolute;
+  z-index: 30;
+  right: 5%;
+  top: 50%;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #af0012;
+}
+
+.owl-inner {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+}
+
+.owl-inner-2 {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+}
+
+.owl-dot span {
+  background: #b4b4b4;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #cc0015;
+  margin: 5px;
+}
+
+.dot {
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+}
+
+.owl-theme .owl-nav {
+  margin-top: unset;
+}
+
+/* index_banner_end */
+
+/* index_product_start */
+.indexPtContainer {
+}
+
+.indexPtItem {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.indexPtImg {
+  padding-bottom: 100%;
+  position: relative;
+  border: 3px solid #eee;
+}
+
+.indexPtImg img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.indexPtItem a:hover .indexPtImg {
+  opacity: 0.7;
+}
+
+.indexPtName a {
+  line-height: 1.6;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  border-bottom: #eee solid 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.indexPtDesc {
+  height: 80px;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #aaa;
+  padding: 3px;
+}
+
+/* index_product_end */
+
+/* index_html_editor_start */
+.indexEditorContainer {
+}
+
+/* index_html_editor_end */
+
+@media only screen and (max-width: 1499px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 568px) {
+}
+
+@media only screen and (max-width: 440px) {
+}
+
+@media only screen and (max-width: 420px) {
+}
+
+@media only screen and (max-width: 320px) {
+}

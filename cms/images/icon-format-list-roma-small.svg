@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" viewBox="0 0 40 30">
+  <g id="icon-format-list-roma-small" transform="translate(-203 -425)">
+    <g id="Group_110" data-name="Group 110" transform="translate(212 429)">
+      <path id="Path_86" data-name="Path 86" d="M10.375,19.038h17V16.9h-17Zm0-6.411h17V10.49h-17Zm0-6.412h17V4.078h-17Z" fill="#565757"/>
+      <path id="Path_87" data-name="Path 87" d="M5.213,6.078h1.41V1.691H5.213ZM5.174,1.066H6.662V0H5.174Z" fill="#565757"/>
+      <path id="Path_88" data-name="Path 88" d="M4.488,8.518H3V7.452H4.488ZM4.449,13.53H3.039V9.143h1.41Z" fill="#565757"/>
+      <path id="Path_89" data-name="Path 89" d="M7.223,8.518H5.735V7.452H7.223ZM7.184,13.53H5.774V9.143h1.41Z" fill="#565757"/>
+      <path id="Path_90" data-name="Path 90" d="M.039,21.038h1.41V16.651H.039ZM0,16.026H1.489V14.96H0Z" fill="#565757"/>
+      <path id="Path_91" data-name="Path 91" d="M2.774,21.038H4.183V16.651H2.774Zm-.04-5.012H4.223V14.96H2.734Z" fill="#565757"/>
+      <path id="Path_92" data-name="Path 92" d="M5.508,21.038h1.41V16.651H5.508Zm-.04-5.012H6.957V14.96H5.468Z" fill="#565757"/>
+    </g>
+    <rect id="Rectangle_76" data-name="Rectangle 76" width="40" height="30" transform="translate(203 425)" fill="none"/>
+  </g>
+</svg>

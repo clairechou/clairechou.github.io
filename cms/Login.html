@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>後台系統</title>
+  <!-- fontaewsome -->
+  <link rel="stylesheet" href="plugin/fontawesome/css/fontawesome-all.min.css" />
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <!-- JS -->
+  <script src="plugin/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/form-validation.js"></script>
+  <!-- bootstrap 4.5.3 -->
+  <link rel="stylesheet" href="plugin/bootstrap-4.5.3-dist/css/bootstrap.min.css" />
+  <!-- 定義全站html標籤、網站字體或是取消套件預設 -->
+  <link rel="stylesheet" href="css/globe.css">
+  <!-- 定義全站中常駐項目 -->
+  <link rel="stylesheet" href="css/layout.css">
+  <!-- 首頁專用css -->
+  <link rel="stylesheet" href="css/index.css">
+  <!-- 自定義css -->
+  <link rel="stylesheet" href="css/page.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <form class="form-signin needs-validation" novalidate>
+          <div class="signin-logo d-flex justify-content-center"><img class="mb-4" src="images/logo.png" alt="logo">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">帳號</label>
+            <input type="email" id="inputEmail" class="form-control" placeholder="請輸入帳號" value="" required>
+            <div class="invalid-feedback">
+              請輸入帳號
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">密碼</label>
+            <input type="password" id="exampleInputPassword1" class="form-control" placeholder="請輸入密碼" value=""
+              required>
+            <div class="invalid-feedback">
+              請輸入密碼
+            </div>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">記住我</label>
+          </div>
+          <button class="btn-warning btn-block" type="submit">登入</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+
+<script src="plugin/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+<!-- <script src="../plugin/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script> -->

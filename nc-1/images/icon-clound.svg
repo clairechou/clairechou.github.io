@@ -1,0 +1,16 @@
+<svg id="icon-clound" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_869" data-name="Rectangle 869" width="80" height="80" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1002" data-name="Group 1002" clip-path="url(#clip-path)">
+    <path id="Path_1712" data-name="Path 1712" d="M45.226,21.613A11.613,11.613,0,1,1,33.613,10,11.612,11.612,0,0,1,45.226,21.613" transform="translate(6.387 2.903)" fill="#f9ba48"/>
+    <rect id="Rectangle_864" data-name="Rectangle 864" width="10.323" height="3.871" transform="translate(14.432 74.839)" fill="#f9ba48"/>
+    <rect id="Rectangle_865" data-name="Rectangle 865" width="10.588" height="3.529" transform="translate(55.294 75.294)" fill="#f9ba48"/>
+    <rect id="Rectangle_866" data-name="Rectangle 866" width="4.706" height="7.059" transform="translate(24.706 41.176)" fill="#f9ba48"/>
+    <rect id="Rectangle_867" data-name="Rectangle 867" width="4.706" height="7.059" transform="translate(50.588 41.176)" fill="#f9ba48"/>
+    <rect id="Rectangle_868" data-name="Rectangle 868" width="2.353" height="2.353" transform="translate(38.824 41.176)" fill="#333"/>
+    <path id="Path_1713" data-name="Path 1713" d="M41.29,49.032H61.935V46.452H67.1A12.905,12.905,0,0,0,69.35,20.84a8.975,8.975,0,0,0-7.841-6.606A18.044,18.044,0,0,0,27.951,9.551,11.608,11.608,0,0,0,13.194,18.1a14.194,14.194,0,0,0,1,28.352h3.871v2.581H38.71v12.9h-7.5V51.613H7.742V80H31.206V64.516H48.794V80H72.258V51.613H48.794V61.935h-7.5Zm-5.161-6.452A3.871,3.871,0,1,1,40,46.452a3.876,3.876,0,0,1-3.871-3.871m23.226,3.871H56.774V41.29H54.194v5.161H51.613V41.29H49.032v5.161h-3.9a6.321,6.321,0,0,0,0-7.742H59.355ZM14.194,43.871a11.611,11.611,0,1,1,.025-23.222h.008l1.188.052.147-1.181a9.026,9.026,0,0,1,12.523-7.173l1.163.5.523-1.155a15.464,15.464,0,0,1,29.385,4l.174,1.133,1.317-.05A6.417,6.417,0,0,1,67.006,22.2l.156.979.987.1A10.323,10.323,0,0,1,67.1,43.871H61.935V36.129H18.065v7.742Zm6.452-5.161H34.872a6.321,6.321,0,0,0,0,7.742h-3.9V41.29H28.387v5.161H25.806V41.29H23.226v5.161H20.645Zm7.981,30.968h-18.3V54.194h18.3Zm-2.581,7.742V74.839H23.465v2.581H20.884V74.839H18.3v2.581H15.723V74.839H13.142v2.581H10.323V72.258h18.3v5.161Zm41.052,0V74.839H64.516v2.581H61.935V74.839H59.355v2.581H56.774V74.839H54.194v2.581H51.374V72.258h18.3v5.161Zm2.581-7.742h-18.3V54.194h18.3Z" fill="#333"/>
+  </g>
+</svg>

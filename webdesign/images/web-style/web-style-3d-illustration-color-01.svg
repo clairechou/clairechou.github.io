@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-web-style-3d-illustration-color-01">
+      <rect width="80" height="80"/>
+    </clipPath>
+  </defs>
+  <g id="web-style-3d-illustration-color-01" clip-path="url(#clip-web-style-3d-illustration-color-01)">
+    <rect width="80" height="80" fill="#fff"/>
+    <rect id="Rectangle_354" data-name="Rectangle 354" width="80" height="80" rx="4" transform="translate(0 0)" fill="#bebeed"/>
+    <text id="_BEBEED" data-name="#BEBEED" transform="translate(40 60)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="-32.34" y="0">#BEBEED</tspan></text>
+    <text id="淺紫色" transform="translate(40 35)" fill="#4d4d4d" font-size="16" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="-24.8" y="0">淺紫色</tspan></text>
+  </g>
+</svg>

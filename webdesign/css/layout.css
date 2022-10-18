@@ -1,0 +1,205 @@
+/*===========================
+         常駐項
+===========================*/
+.floatMenuContainer {
+  position: fixed;
+  right: 0;
+  bottom: 15%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  z-index: 99;
+}
+
+.floatMenuContainer ul li {
+  margin-bottom: 15px;
+}
+
+.floatMenuContainer ul li a {
+  display: block;
+  padding: 15px 12px 15px 12px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.floatMenuContainer ul li a span {
+  display: block;
+}
+
+.btn-contact {
+  background-color: #ffc023;
+}
+
+.btn-contact:hover {
+  background-color: #e89112;
+}
+
+.goTop {
+  background-color: #008cc3;
+}
+
+.goTop:hover {
+  background-color: #005892;
+}
+
+@media (max-width: 767px) {
+  .floatMenuContainer {
+    left: 0px;
+    bottom: 0px;
+    top: inherit;
+    right: inherit;
+    transform: inherit;
+  }
+
+  .floatMenuContainer ul {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+  }
+
+  .floatMenuContainer ul li {
+    display: table-cell;
+  }
+
+  .floatMenuContainer ul li a {
+    width: 100%;
+    font-size: 14px;
+    border-radius: unset;
+  }
+}
+
+/*===========================
+         BUTTON
+===========================*/
+/* .buttons-title .title {
+  font-size: 36px;
+  line-height: 45px;
+  color: #6c6c6c;
+} */
+
+.main-btn {
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 2px solid transparent;
+  padding: 0 32px;
+  font-size: 16px;
+  line-height: 46px;
+  color: #0067f4;
+  cursor: pointer;
+  z-index: 5;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  position: relative;
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  .main-btn {
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 40px;
+  }
+}
+
+/*===========================
+         FOOTER
+===========================*/
+.footer-area {
+  background-color: #6c6f73;
+}
+
+.footer-widget {
+  padding: 20px 0 20px 0;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  .footer-area {
+    margin-bottom: 72px;
+  }
+}
+
+.footer-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #6c6c6c;
+}
+
+.footer-copyright {
+  background-color: #3c3d40;
+}
+
+.copyright {
+  padding: 10px 0 10px 0;
+}
+.copyright .footer-text {
+  font-size: 11px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+.contact-phone ul li {
+  font-size: 15px;
+  color: #fff;
+  padding: 5px;
+}
+
+.contact-phone a {
+  color: #fff;
+}
+
+.contact-phone a:hover {
+  color: #a4a4a4;
+}
+
+.contact-info ul li {
+  font-size: 15px;
+  color: #fff;
+  padding: 5px;
+}
+
+.contact-info a {
+  color: #fff;
+}
+
+.contact-info a:hover {
+  color: #a4a4a4;
+}
+
+/*===========================
+         BREADCRUMB
+===========================*/
+.breadcrumb {
+  background-color: unset;
+  padding: unset;
+  margin-bottom: unset;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+}
+
+.breadcrumb a {
+  color: #3c3d40;
+}
+
+.breadcrumb-item.active {
+  color: #ff7e00;
+}

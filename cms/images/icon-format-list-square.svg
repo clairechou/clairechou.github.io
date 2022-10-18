@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon-format-list-square" transform="translate(-160 -407)">
+    <path id="Path_69" data-name="Path 69" d="M0,0H24V24H0Z" transform="translate(160 407)" fill="none"/>
+    <path id="Path_70" data-name="Path 70" d="M7.8,19H21V17H7.8Zm0-6H21V11H7.8Zm0-8V7H21V5Z" transform="translate(160 407)" fill="#575757"/>
+    <rect id="Rectangle_63" data-name="Rectangle 63" width="2" height="2" transform="translate(163 412)" fill="#575757"/>
+    <rect id="Rectangle_64" data-name="Rectangle 64" width="2" height="2" transform="translate(163 418)" fill="#575757"/>
+    <rect id="Rectangle_65" data-name="Rectangle 65" width="2" height="2" transform="translate(163 424)" fill="#575757"/>
+    <g id="Rectangle_66" data-name="Rectangle 66" transform="translate(162 411)" fill="#fff" stroke="#575757" stroke-width="1">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="3" fill="none"/>
+    </g>
+    <g id="Rectangle_67" data-name="Rectangle 67" transform="translate(162 417)" fill="#fff" stroke="#575757" stroke-width="1">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="3" fill="none"/>
+    </g>
+    <g id="Rectangle_68" data-name="Rectangle 68" transform="translate(162 423)" fill="#fff" stroke="#575757" stroke-width="1">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="3" fill="none"/>
+    </g>
+  </g>
+</svg>

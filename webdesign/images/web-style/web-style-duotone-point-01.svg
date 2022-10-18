@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <clipPath id="clip-web-style-duotone-point-01">
+      <rect width="900" height="600"/>
+    </clipPath>
+  </defs>
+  <g id="web-style-duotone-point-01" clip-path="url(#clip-web-style-duotone-point-01)">
+    <rect width="900" height="600" fill="#fff"/>
+    <text id="字體使用無襯線字體_造型更加簡明現代_版面效果清新輕快_識別度高_" data-name="字體使用無襯線字體，造型更加簡明現代，版面效果清新輕快，識別度高。" transform="translate(480 176)" fill="#4d4d4d" font-size="20" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="23">字體使用無襯線字體，造型更加簡明現</tspan><tspan x="0" y="53">代，版面效果清新輕快，識別度高。</tspan></text>
+    <text id="雙色調具有許多配色方案_此範例主要以亮面紅色_暗面紫色_作為搭配_具有現代科技感_" data-name="雙色調具有許多配色方案，此範例主要以亮面紅色、暗面紫色，作為搭配，具有現代科技感。" transform="translate(49 176)" fill="#4d4d4d" font-size="20" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="23">雙色調具有許多配色方案，此範例主要</tspan><tspan x="0" y="53">以亮面紅色、暗面紫色，作為搭配，具</tspan><tspan x="0" y="83">有現代科技感。</tspan></text>
+    <text id="_F56468" data-name="#F56468" transform="translate(50 393)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="0">#F56468</tspan></text>
+    <text id="_959595" data-name="#959595" transform="translate(234 393)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="0">#959595</tspan></text>
+    <text id="_4931A1" data-name="#4931A1" transform="translate(142 393)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="0">#4931A1</tspan></text>
+    <rect id="Rectangle_344" data-name="Rectangle 344" width="80" height="80" rx="4" transform="translate(234 289)" fill="#959595"/>
+    <rect id="Rectangle_345" data-name="Rectangle 345" width="80" height="80" rx="4" transform="translate(142 289)" fill="#4931a1"/>
+    <rect id="Rectangle_346" data-name="Rectangle 346" width="80" height="80" rx="4" transform="translate(50 289)" fill="#f56468"/>
+    <text id="Aa" transform="translate(480 357)" fill="#4d4d4d" font-size="96" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">Aa</tspan></text>
+    <text id="ABCDEFGHIJKLMNOPQRSTUVWXYZ" transform="translate(480 402)" fill="#4d4d4d" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.05em"><tspan x="0" y="15">ABCDEFGHIJKLMNOPQ</tspan><tspan x="0" y="35">RSTUVWXYZ</tspan></text>
+    <text id="abcdefghijklmnopqrstuvwxyz-2" data-name="abcdefghijklmnopqrstuvwxyz" transform="translate(480 447)" fill="#4d4d4d" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.05em"><tspan x="0" y="15">abcdefghijklmnopqrstu</tspan><tspan x="0" y="35">vwxyz</tspan></text>
+    <text id="_0123456789" data-name="0123456789" transform="translate(480 377)" fill="#4d4d4d" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.05em"><tspan x="0" y="15">0123456789</tspan></text>
+    <text id="Typoography_文字" data-name="Typoography 文字" transform="translate(480 136)" fill="#219dff" font-size="24" font-family="NotoSansTC-Medium, Noto Sans TC" font-weight="500"><tspan x="0" y="0">TYPOOGRAPHY 文字</tspan></text>
+    <text id="Color_色彩" data-name="Color 色彩" transform="translate(50 136)" fill="#219dff" font-size="24" font-family="NotoSansTC-Medium, Noto Sans TC" font-weight="500"><tspan x="0" y="0">COLOR 色彩</tspan></text>
+    <line id="Line_67" data-name="Line 67" x2="370" transform="translate(50 146)" fill="none" stroke="#219dff" stroke-width="1"/>
+    <line id="Line_68" data-name="Line 68" x2="370" transform="translate(480 146)" fill="none" stroke="#219dff" stroke-width="1"/>
+  </g>
+</svg>

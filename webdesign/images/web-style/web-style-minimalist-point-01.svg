@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <clipPath id="clip-web-style-minimalist-point-01">
+      <rect width="900" height="600"/>
+    </clipPath>
+  </defs>
+  <g id="web-style-minimalist-point-01" clip-path="url(#clip-web-style-minimalist-point-01)">
+    <rect width="900" height="600" fill="#fff"/>
+    <text id="Aa" transform="translate(480 253)" fill="#4d4d4d" font-size="96" font-family="GlowSansTC-Normal-Medium, Glow Sans TC" font-weight="500"><tspan x="0" y="111">Aa</tspan></text>
+    <text id="ABCDEFGHIJKLMNOPQRSTUVWXYZ" transform="translate(480 402)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="16">ABCDEFGHIJKLMNOP</tspan><tspan x="0" y="36">QRSTUVWXYZ</tspan></text>
+    <text id="abcdefghijklmnopqrstuvwxyz-2" data-name="abcdefghijklmnopqrstuvwxyz" transform="translate(480 447)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="16">abcdefghijklmnopqrst</tspan><tspan x="0" y="36">uvwxyz</tspan></text>
+    <text id="_0123456789" data-name="0123456789" transform="translate(480 377)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="16">0123456789</tspan></text>
+    <text id="Typoography_文字" data-name="Typoography 文字" transform="translate(480 136)" fill="#219dff" font-size="24" font-family="NotoSansTC-Medium, Noto Sans TC" font-weight="500"><tspan x="0" y="0">TYPOOGRAPHY 文字</tspan></text>
+    <text id="字體使用無襯線字體_造型更加簡明現代_版面效果清新輕快_識別度高_" data-name="字體使用無襯線字體，造型更加簡明現代，版面效果清新輕快，識別度高。" transform="translate(480 176)" fill="#4d4d4d" font-size="20" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="23">字體使用無襯線字體，造型更加簡明現</tspan><tspan x="0" y="53">代，版面效果清新輕快，識別度高。</tspan></text>
+    <text id="白色_黑色帶給人們乾淨俐落的感覺_加上藍色_可以有效地活用版面的視覺引導_" data-name="白色、黑色帶給人們乾淨俐落的感覺，加上藍色，可以有效地活用版面的視覺引導。" transform="translate(49 176)" fill="#4d4d4d" font-size="20" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="23">白色、黑色帶給人們乾淨俐落的感覺，</tspan><tspan x="0" y="53">加上藍色，可以有效地活用版面的視覺</tspan><tspan x="0" y="83">引導。</tspan></text>
+    <text id="Color_色彩" data-name="Color 色彩" transform="translate(50 136)" fill="#219dff" font-size="24" font-family="NotoSansTC-Medium, Noto Sans TC" font-weight="500"><tspan x="0" y="0">COLOR 色彩</tspan></text>
+    <text id="_FFFFFF" data-name="#FFFFFF" transform="translate(50 393)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="0">#FFFFFF</tspan></text>
+    <text id="_000000" data-name="#000000" transform="translate(234 393)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="0">#000000</tspan></text>
+    <text id="_0962A8" data-name="#0962A8" transform="translate(327 393)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="0">#0962A8</tspan></text>
+    <text id="_4D4D4D" data-name="#4D4D4D" transform="translate(142 393)" fill="#4d4d4d" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="0" y="0">#4D4D4D</tspan></text>
+    <rect id="Rectangle_344" data-name="Rectangle 344" width="80" height="80" rx="4" transform="translate(234 289)"/>
+    <rect id="Rectangle_345" data-name="Rectangle 345" width="80" height="80" rx="4" transform="translate(142 289)" fill="#4d4d4d"/>
+    <g id="Rectangle_346" data-name="Rectangle 346" transform="translate(50 289)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="80" height="80" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="79" rx="3.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_347" data-name="Rectangle 347" width="80" height="80" rx="4" transform="translate(326 289)" fill="#0962a8"/>
+    <line id="Line_67" data-name="Line 67" x2="370" transform="translate(50 146)" fill="none" stroke="#219dff" stroke-width="1"/>
+    <line id="Line_68" data-name="Line 68" x2="370" transform="translate(480 146)" fill="none" stroke="#219dff" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,444 @@
+@charset "utf-8";
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../../images/201602sale/bg_m.jpg);
+	background-color:#ffe05e;
+}
+
+/* Header */
+.header_container{
+	background-image: url(../../images/201602sale/header_bg_m.jpg);
+	background-repeat: repeat-x;
+	height: 44px;
+	width: 100%;
+
+}
+
+a.omusic_logo{
+	background-image: url(../../images/201602sale/omusic_logo_m.png);
+	height: 44px;
+	width: 168px;
+	background-repeat: no-repeat;
+	float: left;
+	background-size: 168px;
+	}
+a.omusic_logo:active {
+	opacity:0.4;
+	filter:alpha(opacity=50);
+}
+
+
+/* Footer */
+.footer_container{
+	background-color: #f7f7f7;
+	height: 60px;
+	width: 100%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #cfcfcf;
+	font-family: "微軟正黑體";
+	font-size: 12px;
+	color: #555555;
+	text-align: center;
+	padding-top: 10px;
+	float: left;
+	}
+	
+a.footer_link{
+	font-family: "微軟正黑體";
+	font-size: 12px;
+	color: #696969;
+	text-decoration: none;
+	}
+a.footer_link:active {
+	font-size: 12px;
+	opacity:0.4;
+	filter:alpha(opacity=50);
+}
+
+
+/* 登入popup */
+.menu_bar{
+	float:right;
+	height:37px;
+	margin-right:10px;
+
+}
+.menu_bar a{
+		display:block;
+		float:left;
+		width:40px;
+		height:20px;
+		text-align:center;
+		font-size:10px;
+		_font-size:7px;
+		color:#FFFFFF;
+		letter-spacing:-1px;
+	}
+
+.menu_bar a.icon_home{
+	background-image: url(../../images/201602sale/iconmonstr-menu-2-icon-128_m.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: center 5px;
+	text-indent:-9999px;
+	display:block;
+	width:30px;
+	height:30px;	
+	}
+
+#MENU{
+	position:absolute;
+	z-index:995;
+	width:60%;
+	left:50%;
+	margin-left:-30%;
+	z-index:9999;
+}
+
+#MENU ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	padding-top:10px;
+}
+
+#MENU li{
+	display:block;
+	width:100%;
+	height:40px;
+	margin:0 auto;
+	margin-bottom:6px;
+	text-align:center;
+	line-height:40px;
+	font-family:"微軟正黑體";
+	background-color:#fff;
+	color:#FFF;
+	-webkit-border-radius:5px;
+	font-size: 20px;
+}
+
+.close_btn{
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:-10px;
+	right:-10px;
+	text-indent:-9999px;
+	display:block;
+	background-image:url(../../images/201602sale/Flaticon_1502_m.png);
+	background-position:center center;
+	background-size:30px 30px;
+	background-repeat:no-repeat;
+}
+
+.UPUP{
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  -moz-transform: translate3d(0px, -500px, 0px);
+  -webkit-transform: translate3d(0px, -500px, 0px);
+  -o-transform: translate3d(0px, -500px, 0px);
+  -ms-transform: translate3d(0px, -500px, 0px);
+  transform: translate3d(0px, -500px, 0px);
+}
+
+.DOWNDOWN{
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  -moz-transform: translate3d(0px, 150px, 0px);
+  -webkit-transform: translate3d(0px, 150px, 0px);
+  -o-transform: translate3d(0px, 150px, 0px);
+  -ms-transform: translate3d(0px, 150px, 0px);
+  transform: translate3d(0px, 150px, 0px);
+}
+
+/* 可自由編輯區 ...............................................................*/
+
+.main_container{
+	height: auto;
+	width: 100%;
+	position: relative;
+	}
+	
+.main_title{
+	width: 100%;
+	float: left;
+	}
+	
+.apply_btn{
+	width: 100%;
+	float: left;
+	}
+
+.share_container{
+	height: auto;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+	}
+
+/*POPUP 訊息框*/
+.popup_content {
+	display: none;
+	position: fixed;
+	width: 280px;
+	height: 200px;
+	background-color: #FFF;
+	z-index: 100;
+	border-radius: 5px;
+	padding: 10px;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -100px;
+	border: 2px solid #999;
+}
+
+.popup2_content {
+	display: none;
+	position: fixed;
+	width: 280px;
+	height: 400px;
+	background-color: #FFF;
+	z-index: 100;
+	border-radius: 5px;
+	padding: 10px;
+	left: 50%;
+	top: 25%;
+	margin-left: -150px;
+	margin-top: -100px;
+	border: 2px solid #999;
+}
+
+.popup_style_btn_content{
+	width:275px;
+	height:55px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	}	
+
+.popup_style_btn {
+	width:275px;
+	height:55px;
+	font-family: Arial, Helvetica, sans-serif, "微軟正黑體";
+	font-size: 18px;
+	color: #FFF;
+	border-radius: 5px;
+	background-image: url(../../images/201602sale/close_btn_m.png);
+	background-repeat: no-repeat;
+	background-size: 275px;
+	line-height: 55px;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	margin-right: 5px;
+	}
+.popup_style_btn:active {
+	opacity:0.4;
+	filter:alpha(opacity=20);
+	}
+	
+.popup_style_back_btn {
+	width:275px;
+	height:55px;
+	font-family: Arial, Helvetica, sans-serif, "微軟正黑體";
+	font-size: 18px;
+	color: #FFF;
+	border-radius: 5px;
+	background-image: url(../../images/201602sale/back_btn_m.png);
+	background-repeat: no-repeat;
+	background-size: 275px;
+	line-height: 55px;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	margin-right: 5px;
+	}
+.popup_style_back_btn:active {
+	opacity:0.4;
+	filter:alpha(opacity=20);
+	}
+
+.popup_wording{
+	width: 280px;
+	height: 100px;
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	}
+
+.popup_term_title{
+	background-image: url(../../images/201602sale/terms_title_m.png);
+	background-repeat: no-repeat;
+	background-size: 280px;
+	height: 40px;
+	width: 280px;
+	}
+
+.popup_term_wording{
+	width: 280px;
+	height: 360px;
+	font-family: "微軟正黑體";
+	font-size: 12px;
+	line-height: 24px;
+	color: #000;
+	text-align: left;
+	overflow-x: hidden;
+	}
+
+	
+/*POPUP 關閉桉鈕*/
+.black_overlay{
+	width: 100%;
+	height: 1900px;
+	display: none;
+	background-color: black;
+	z-index:11;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+	background-size:cover;
+	position: absolute;
+}
+
+#close_popup_btn{
+	height: 44px;
+	width: 44px;
+	position: absolute;
+	z-index: 999;
+	top: -15px;
+	right: -15px;
+	}
+a.close_popup_btn {
+	float:left;
+	width:44px;
+	height:44px;
+	background-image: url(../../images/201602sale/close_banner.png);
+	background-size: 44px;
+	background-repeat: no-repeat;
+}
+a.close_popup_btn:active {
+	opacity:0.4;
+	filter:alpha(opacity=50);
+}
+
+.white_content_test {
+	position: fixed;
+	width: 655px;
+	height: 455px;
+	background-color: #FFF;
+	z-index:3;
+	border-radius: 5px;
+	padding: 10px;
+		
+}
+
+.fillin_title{
+	width: 100%;
+	float: left;
+	}
+
+.info_outside_container{
+	width: 100%;
+	float: left;
+	background-color: #dee2e6;
+	height: auto;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	}
+
+.input_block_outside{
+	height: 50px;
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+	}
+.info_title_container{
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	line-height: 50px;
+	color: #1b262b;
+	float: left;
+	height: 50px;
+	width: 20%;
+	margin-right: 10px;
+	text-align: right;
+	}
+.input_block{
+	float: left;
+	height: 50px;
+	width: 75%;
+	font-family: "微軟正黑體";
+	font-size: 10px;
+	color: #000;
+	}
+	
+.input_block2{
+	float: left;
+	height: 50px;
+	width: 70%;
+	font-family: "微軟正黑體";
+	font-size: 12px;
+	color: #000;
+	}
+
+.input_container{
+	float: left;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid #d1ba82;
+	width: 90%;
+	}
+
+.confirm_btn{
+	width: 100%;
+	float: left;
+	}
+	
+.emty_block{
+	background-image: url(../../images/201602sale/bg_m.jpg);
+	background-repeat: repeat;
+	float: left;
+	height: 200px;
+	width: 100%;
+	}
+
+/*20151231 JE新增*/
+.input2_container{
+	float: left;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid #d1ba82;
+	width: 20%;
+	margin-right: 10px;
+	}
+.select_container{
+	float: left;
+	height: 30px;
+	width: 150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+.select_box{
+	width: 50px;
+	}

@@ -1,0 +1,7 @@
+<svg id="icon-format-list-bulleted" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Path_69" data-name="Path 69" d="M0,0H24V24H0Z" fill="none"/>
+  <path id="Path_70" data-name="Path 70" d="M4,10.5A1.5,1.5,0,1,0,5.5,12,1.5,1.5,0,0,0,4,10.5Zm0-6A1.5,1.5,0,1,0,5.5,6,1.5,1.5,0,0,0,4,4.5Zm0,12A1.5,1.5,0,1,0,5.5,18,1.5,1.5,0,0,0,4,16.5ZM7.8,19H21V17H7.8Zm0-6H21V11H7.8Zm0-8V7H21V5Z" fill="#575757"/>
+  <circle id="Ellipse_10" data-name="Ellipse 10" cx="2" cy="2" r="2" transform="translate(2 4)" fill="#575757"/>
+  <circle id="Ellipse_11" data-name="Ellipse 11" cx="2" cy="2" r="2" transform="translate(2 10)" fill="#575757"/>
+  <circle id="Ellipse_12" data-name="Ellipse 12" cx="2" cy="2" r="2" transform="translate(2 16)" fill="#575757"/>
+</svg>

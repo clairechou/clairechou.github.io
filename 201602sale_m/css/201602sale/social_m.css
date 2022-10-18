@@ -1,0 +1,85 @@
+/*背景深色,按鈕小的社群分享按鈕*/
+.socialbtn{
+	clear: both;
+	line-height: 21px;
+	position: absolute;
+	height: 44px;
+	width: 195px;
+	line-height: 21px;
+	left: 55px;
+	top: 89px;
+	z-index: 10;
+}
+
+/* 快來分享字顏色在以下color修改 */
+.socialbtn ul li{
+	float:left;
+	padding:2px;
+	font-size:12px;
+	color:#FFF;
+	
+}
+.socialbtn ul li a{
+	display:block;
+	width:44px;
+	height:44px;
+	
+	background-image: url(../../images/201602sale/sharebtn_m.png);
+	background-repeat: no-repeat;
+
+	}
+	
+.socialbtn ul li .fb{ 
+	background-position:-0px -0px; 
+	text-indent:-9999px;  
+	}
+	
+.socialbtn ul li .twitter{ 
+	background-position:-55px -0px;  
+	text-indent:-9999px;
+	}
+	
+.socialbtn ul li .line{ 
+	background-position:-110px -0px;  
+	text-indent:-9999px;
+	}
+	
+.socialbtn ul li .weibo{ 
+	background-position:-220px -0px;  
+	text-indent:-9999px;
+	}
+	
+.socialbtn ul li .google{ 
+	background-position:-165px -0px;  
+	text-indent:-9999px;
+	
+	}
+	
+.socialbtn ul li .fb:hover{ 
+	opacity:0.4;
+	filter:alpha(opacity=50); 
+	}
+	
+.socialbtn ul li .twitter:hover{ 
+	opacity:0.4;
+	filter:alpha(opacity=50);  
+	}
+	
+.socialbtn ul li .line:hover{ 
+	opacity:0.4;
+	filter:alpha(opacity=50); 
+	}
+
+.socialbtn ul li .weibo:hover{ 
+	opacity:0.4;
+	filter:alpha(opacity=50); 
+	}
+
+.socialbtn ul li .google:hover{ 
+	opacity:0.4;
+	filter:alpha(opacity=50); 
+	}
+	
+.socialbtn .fb_like{ 
+	float:left; margin:0 0 0 2px;
+	}

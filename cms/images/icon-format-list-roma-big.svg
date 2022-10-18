@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" viewBox="0 0 40 30">
+  <g id="icon-format-list-roma-big" transform="translate(-203 -390)">
+    <g id="Group_109" data-name="Group 109" transform="translate(207 395)">
+      <path id="Path_79" data-name="Path 79" d="M15.046,18.464h17V16.241h-17Zm0-6.667h17V9.575h-17Zm0-6.667h17V2.908h-17Z" fill="#565757"/>
+      <path id="Path_80" data-name="Path 80" d="M8.223,0V1.031h.982V4.785H8.223V5.817h3.51V4.785H10.75V1.031h.983V0Z" fill="#565757"/>
+      <path id="Path_81" data-name="Path 81" d="M7.356,13.094H4.367V12.063H5.2V8.309H4.367V7.278H7.356V8.309H6.52v3.754h.836Z" fill="#565757"/>
+      <path id="Path_82" data-name="Path 82" d="M11.188,13.094H8.2V12.063h.837V8.309H8.2V7.278h2.989V8.309h-.836v3.754h.836Z" fill="#565757"/>
+      <path id="Path_83" data-name="Path 83" d="M0,14.556v1.031H.878v3.754H0v1.032H3.139V19.341H2.261V15.587h.878V14.556Z" fill="#565757"/>
+      <path id="Path_84" data-name="Path 84" d="M4.024,14.556v1.031H4.9v3.754H4.024v1.032H7.163V19.341H6.285V15.587h.878V14.556Z" fill="#565757"/>
+      <path id="Path_85" data-name="Path 85" d="M8.049,14.556v1.031h.878v3.754H8.049v1.032h3.139V19.341H10.31V15.587h.878V14.556Z" fill="#565757"/>
+    </g>
+    <rect id="Rectangle_75" data-name="Rectangle 75" width="40" height="30" transform="translate(203 390)" fill="none"/>
+  </g>
+</svg>

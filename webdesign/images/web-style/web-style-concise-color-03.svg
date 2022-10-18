@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-web-style-concise-color-03">
+      <rect width="80" height="80"/>
+    </clipPath>
+  </defs>
+  <g id="web-style-concise-color-03" clip-path="url(#clip-web-style-concise-color-03)">
+    <rect width="80" height="80" fill="#fff"/>
+    <path id="Path_5" data-name="Path 5" d="M4,0H76a4,4,0,0,1,4,4V76a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(0 0)" fill="#bb1b21"/>
+    <text id="_BB1B21" data-name="#BB1B21" transform="translate(40 60)" fill="#fff" font-size="14" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="-31.437" y="0">#BB1B21</tspan></text>
+    <text id="紅色" transform="translate(40 35)" fill="#fff" font-size="16" font-family="NotoSansTC-Regular, Noto Sans TC" letter-spacing="0.05em"><tspan x="-16.4" y="0">紅色</tspan></text>
+  </g>
+</svg>
