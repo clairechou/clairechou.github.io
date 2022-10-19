@@ -1,0 +1,146 @@
+* {
+  font-family: "Noto Sans TC", "Helvetica Neue", "Microsoft JhengHei", Arial,
+    sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* a {
+  text-decoration: none !important;
+  outline: none !important;
+  word-break: break-all;
+}
+
+* ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+* img {
+  max-width: 100%;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+* p {
+  word-break: break-all;
+  line-height: 1.6;
+  margin-bottom: 0px;
+}
+
+body {
+  background-color: #fff;
+  padding: 0px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr {
+  margin: 0px;
+  font-size: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+a,
+button {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a:hover,
+button:hover {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+textarea {
+  resize: none;
+}
+
+@media (min-width: 1280px) {
+}
+
+.form-control {
+  background: none;
+  background: #fff;
+  display: inline-block;
+  padding: 10px;
+  box-shadow: none;
+  border: #aaa solid 1px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  background: #fff;
+}
+
+.form-control:read-only,
+.custom-file-control:read-only {
+  background: #fff;
+}
+
+select.form-control:not([size]):not([multiple]),
+select.custom-file-control:not([size]):not([multiple]) {
+  height: auto;
+  line-height: 2;
+}
+
+* .ckeditor_container ul {
+  list-style: disc;
+}
+
+form {
+  margin-bottom: 0px;
+}
+
+div {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 576px) {
+}
+
+@media only screen and (max-width: 440px) {
+}
+
+@media only screen and (max-width: 420px) {
+}
