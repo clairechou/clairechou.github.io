@@ -214,12 +214,13 @@
   transition: opacity 0.2s ease;
 }
 
-.arrowDown {
-  background: url("../images/arrow_down_black.png") 98% no-repeat;
+.subMenu a {
+  color: #333;
+  display: block;
 }
 
-.arrowLeft {
-  background: url("../images/arrow_right_black.png") 98% no-repeat;
+.subMenu a:hover {
+  color: #ddd;
 }
 
 /* 主選單_end */
@@ -234,7 +235,7 @@
 
 /* 內容_start */
 .content {
-  margin: 150px 0 50px 0;
+  margin: 100px auto 50px auto;
   min-height: 800px;
 }
 /* 內容_end */
@@ -781,6 +782,7 @@ a.btn.btn-secondary:hover {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   /* GuidLine_end */
+  width: 100%;
 }
 
 .ptName .txtTitle,
@@ -792,9 +794,13 @@ a.btn.btn-secondary:hover {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding: 0;
   /* GuidLine_end */
   display: block;
+}
+
+.ptName {
+  padding: 5px;
+  min-height: 110px;
 }
 
 .ptName a {

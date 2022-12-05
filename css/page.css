@@ -7,30 +7,25 @@
 /* 基本設定_end */
 
 /* 內頁banner_start */
+.pageBannerBlock {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
 
-.innerBannerContainer {
-  height: 220px;
+.pageBannerInner {
   position: relative;
+  width: 100%;
+  padding: 15%;
+  overflow: hidden;
 }
 
-.innerBannerTitle {
-  display: table;
+.pageBannerInner img {
   position: absolute;
-  left: 50%;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.innerBannerTitle h1 {
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 1;
-  letter-spacing: 0.05em;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-  color: #fff;
+  max-width: 100%;
 }
 
 /* 內頁banner_end */
@@ -41,7 +36,9 @@
 }
 
 .pageContent {
-  padding: 60px 15px;
+  margin: 100px auto 50px auto;
+  min-height: 800px;
+  max-width: 900px;
 }
 
 /* 內頁_end */
@@ -123,10 +120,14 @@
 
 @media only screen and (max-width: 767px) {
   /* 內頁banner_start */
-  .innerBannerContainer {
-    height: 180px;
+  .pageBannerBlock {
+    margin-top: -8px;
   }
   /* 內頁banner_end */
+
+  .content {
+    margin: 50px 0 50px 0;
+  }
 }
 
 @media only screen and (max-width: 568px) {
