@@ -1,0 +1,347 @@
+/* footer-area 頁尾*/
+.footer-area {
+  background-color: #e9e9ee;
+}
+
+.footer-area p,
+.footer-area a {
+  color: #3c3d40;
+  font-size: 13px;
+}
+
+.footer-area h5 {
+  color: #005892;
+  font-size: 15px;
+}
+
+.footer-area h5 a {
+  color: #005892;
+  font-size: 15px;
+}
+
+.footer-area a:hover {
+  color: #0b5ed7;
+}
+
+.footerList {
+  box-sizing: border-box;
+}
+
+.footerList li {
+  float: left;
+  width: 32%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.footer-bg {
+  height: 80px;
+  background-color: #022c48;
+}
+
+.footer-logo {
+  background-color: #fff;
+  border-top: 1px solid #d9d9d9;
+}
+
+.footer-logo-list {
+  width: 100%;
+  height: 120px;
+  padding: 5px;
+}
+
+.footer-logo-list img {
+  max-width: 90%;
+}
+
+.footer-logo-list li {
+  float: left;
+  padding: 5px;
+}
+
+.footer-copyright {
+  border-top: 1px solid #d9d9d9;
+}
+
+.company-info {
+  color: #3c3d40;
+  font-size: 14px;
+}
+
+.search-bar {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  display: flex;
+}
+
+.search-bar-input {
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* Spacing 間隔 */
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-200 {
+  margin-top: 200px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mt-300 {
+  margin-top: 300px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.mt-80 {
+  margin-top: -80px;
+}
+
+/* Font 字型 */
+h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  letter-spacing: 0.5px;
+}
+
+/* button 按鈕 */
+.btn-main {
+  padding: 10px 30px;
+  border-radius: 6px;
+  color: #fff;
+  z-index: 1;
+  background: #1d6df0;
+  font-weight: 400;
+  position: relative;
+  font-size: 16px;
+  transition: all 250ms;
+  overflow: hidden;
+  border: 2px solid #1d6df0;
+}
+
+.btn-main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0px;
+  border-radius: 6px;
+  background-color: #fff;
+  z-index: -1;
+  transition: all 250ms;
+}
+
+.btn-main:hover {
+  color: #333;
+}
+
+.btn-main:hover::before {
+  width: 100%;
+}
+
+/* card 卡片 */
+.card-main .card {
+  border: none;
+}
+
+.card-main .card:hover {
+  cursor: pointer;
+}
+
+.card-main .card-img-top {
+  border-radius: 6px;
+}
+
+.card-main .card-body {
+  padding: 0px !important;
+}
+
+.card-main .card-title {
+  margin-bottom: 0;
+  padding-top: 16px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-main .card:hover .card-title {
+  color: #006fb9;
+}
+
+.card-main .card-text {
+  color: #666;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Ratio Img 設定圖片為等比例顯示 填充背景色 */
+.ratio img {
+  object-fit: contain;
+  background-color: #eee;
+}
+
+/* Fixed Right 固定於右下角 */
+.fixed-gotop {
+  display: none;
+  position: fixed;
+  bottom: 130px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  outline: none;
+  font-size: 12px;
+  background-color: #fff1d7;
+  color: #e89112;
+  border: 1px solid #e89112;
+  text-align: center;
+  z-index: 99;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.fixed-gotop:hover {
+  background-color: #e89112;
+  color: #fff;
+}
+
+.fixed-contact {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #fff1d7;
+  color: #e89112;
+  border: 1px solid #e89112;
+  font-size: 12px;
+  text-align: center;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.fixed-contact:hover {
+  background-color: #e89112;
+  color: #fff;
+}
+
+.fixed-message {
+  position: fixed;
+  bottom: -15px;
+  right: 0;
+  width: 406px;
+  height: 621px;
+  padding: 5px;
+  border-radius: 50px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.fixed-text {
+  display: block;
+}
+
+/* Breadcrumb 麵包屑-電腦版 */
+.breadcrumb {
+  background-color: unset;
+  font-size: 16px;
+  margin: 30px 0 30px 0;
+}
+
+.breadcrumb a {
+  color: #3c3d40;
+}
+
+.breadcrumb-item.active {
+  color: #ff9700;
+}
+
+/* Breadcrumb Mobile 麵包屑-移動板 */
+.breadcrumb-mobile {
+  margin: 72px 0 0 8px;
+}
+
+.breadcrumb-mobile a {
+  color: #1d6df0;
+}
+
+/* Bootstrap Icon */
+.bi-bold {
+  -webkit-text-stroke: 0.5px;
+}
+
+.icon-24 {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.icon-16 {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+/* Bootstrap 5 設定變更 */
+:root {
+  --bs-breadcrumb-divider: ">";
+}
+
+/* Button*/
+.btn-warning {
+  background-color: #ff9700;
+  color: #fff;
+  border-color: #ff9700;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #005892;
+  border-color: #005892;
+  font-size: 14px;
+}
+.btn {
+  /* border-radius: 50px; */
+}
+
+/* Page banner*/
+
+/*Pagination */
+.page-link {
+  color: #3c3d40;
+}
+
+.page-item.active .page-link {
+  background-color: #ff9700;
+  border-color: #ff9700;
+}
+
+.page-link:hover {
+  color: #ff9700;
+}

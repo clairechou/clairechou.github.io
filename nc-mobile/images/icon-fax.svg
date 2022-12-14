@@ -1,0 +1,23 @@
+<svg id="icon-fax" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_1190" data-name="Group 1190">
+    <rect id="Rectangle_1055" data-name="Rectangle 1055" width="20" height="20" fill="none"/>
+  </g>
+  <g id="Group_1196" data-name="Group 1196">
+    <g id="Group_1195" data-name="Group 1195">
+      <path id="Path_1900" data-name="Path 1900" d="M18,9.5a2.006,2.006,0,0,0-2-2H14.6V4H7V7.5H6.49A2.493,2.493,0,0,0,2,9v5.5A2.493,2.493,0,0,0,6.49,16H18Zm-9.5-4h4.6v2H8.5Zm-5,9V9a1,1,0,0,1,2,0v5.5a1,1,0,0,1-2,0Zm13,0H7V9h9a.5.5,0,0,1,.5.5Z" fill="#3c3d40"/>
+      <g id="Group_1191" data-name="Group 1191">
+        <circle id="Ellipse_222" data-name="Ellipse 222" cx="0.75" cy="0.75" r="0.75" transform="translate(11.75 10)" fill="#3c3d40"/>
+      </g>
+      <g id="Group_1192" data-name="Group 1192">
+        <circle id="Ellipse_223" data-name="Ellipse 223" cx="0.75" cy="0.75" r="0.75" transform="translate(11.75 12)" fill="#3c3d40"/>
+      </g>
+      <g id="Group_1193" data-name="Group 1193">
+        <circle id="Ellipse_224" data-name="Ellipse 224" cx="0.75" cy="0.75" r="0.75" transform="translate(14 12)" fill="#3c3d40"/>
+      </g>
+      <g id="Group_1194" data-name="Group 1194">
+        <circle id="Ellipse_225" data-name="Ellipse 225" cx="0.75" cy="0.75" r="0.75" transform="translate(14 10)" fill="#3c3d40"/>
+      </g>
+      <rect id="Rectangle_1056" data-name="Rectangle 1056" width="3" height="3.5" transform="translate(8 10)" fill="#3c3d40"/>
+    </g>
+  </g>
+</svg>
